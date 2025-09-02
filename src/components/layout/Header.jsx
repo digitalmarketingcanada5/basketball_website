@@ -28,11 +28,13 @@ const Header = () => {
                   return '/training';
                 case 'CAMPS':
                   return '/camps';
-                case 'ACADEMICS':
+                // case 'ACADEMICS':
                 case 'ABOUT': 
+                  return '/about';
                 case 'GALLERY':
-                case 'CONTACT':
                   return '/'; // Redirect to home until pages are built
+                case 'CONTACT':
+                  return '/contact';
                 default:
                   return '/';
               }

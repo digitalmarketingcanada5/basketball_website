@@ -12,13 +12,13 @@ export const navigation = {
   main: [
     "HOME",
     // "BASKETBALL",
-    "TRAINING",
     "CAMPS",
-    "ACADEMICS", 
+    "TRAINING",
+    // "ACADEMICS", 
     // "SCHOLARSHIPS",
     // "ADMISSIONS",
     "ABOUT",
-    "GALLERY",
+    // "GALLERY",
     "CONTACT"
   ]
 };

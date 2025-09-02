@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { aboutSection } from '../../lib/siteData';
 
 const StorySection = () => {
@@ -55,9 +56,12 @@ const StorySection = () => {
               ))}
             </div>
 
-            <button className="bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+            <Link 
+              href="/about" 
+              className="inline-block bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+            >
               {aboutSection.ctaText}
-            </button>
+            </Link>
           </div>
         </div>
       </div>
