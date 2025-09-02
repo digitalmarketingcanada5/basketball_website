@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { programsDetail } from '../../lib/siteData';
 
 const ProgramsSection = () => {
@@ -65,9 +66,17 @@ const ProgramsSection = () => {
               ))}
             </div>
 
-            <button className="bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
-              {programsDetail.ctaText}
-            </button>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button className="bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+                {programsDetail.ctaText}
+              </button>
+              <Link 
+                href="/camps" 
+                className="bg-gray-800 text-white font-bold py-4 px-8 rounded-full hover:bg-gray-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 border border-gray-600 hover:border-red-600 text-center"
+              >
+                Explore Our Camps
+              </Link>
+            </div>
           </div>
         </div>
       </div>

@@ -13,6 +13,7 @@ export const navigation = {
     "HOME",
     // "BASKETBALL",
     "TRAINING",
+    "CAMPS",
     "ACADEMICS", 
     // "SCHOLARSHIPS",
     // "ADMISSIONS",
