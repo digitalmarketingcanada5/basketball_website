@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const TrainingCTASection = () => {
   const ctaStats = [
@@ -74,42 +75,52 @@ const TrainingCTASection = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
               <div className="bg-gray-900 p-6 rounded-lg">
                 <h4 className="text-xl font-bold text-white mb-3">Training Inquiries</h4>
-                <p className="text-gray-300 mb-2">Coach Marcus Johnson</p>
-                <a href="tel:(732) 555-0199" className="text-red-400 font-bold text-lg hover:text-red-300 transition-colors">
-                  (732) 555-0199
+                <p className="text-gray-300 mb-2">Coach Richardson</p>
+                <a href="tel:437-286-1388" className="text-red-400 font-bold text-lg hover:text-red-300 transition-colors">
+                  437-286-1388
                 </a>
               </div>
               <div className="bg-gray-900 p-6 rounded-lg">
                 <h4 className="text-xl font-bold text-white mb-3">Academic Programs</h4>
-                <p className="text-gray-300 mb-2">Dr. Sarah Williams</p>
-                <a href="tel:(732) 555-0198" className="text-red-400 font-bold text-lg hover:text-red-300 transition-colors">
-                  (732) 555-0198
+                <p className="text-gray-300 mb-2">Coach B (Berri Curtis)</p>
+                <a href="tel:780-932-9922" className="text-red-400 font-bold text-lg hover:text-red-300 transition-colors">
+                  780-932-9922
                 </a>
               </div>
             </div>
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-              <button className="bg-red-600 text-white font-bold py-5 px-10 rounded-full hover:bg-red-700 transition-all duration-300 text-lg shadow-lg hover:shadow-xl transform hover:scale-105">
+              <Link 
+                href="/contact"
+                className="bg-red-600 text-white font-bold py-5 px-10 rounded-full hover:bg-red-700 transition-all duration-300 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 text-center"
+              >
                 SCHEDULE EVALUATION
-              </button>
-              <button className="border-2 border-red-600 text-red-600 font-bold py-5 px-10 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 text-lg">
-                DOWNLOAD PROGRAM INFO
-              </button>
-              <button className="border-2 border-gray-600 text-gray-300 font-bold py-5 px-10 rounded-full hover:border-white hover:text-white transition-all duration-300 text-lg">
+              </Link>
+              <a 
+                href="/EXCEED_CAD_ACADEMIC_CONTRACT.pdf"
+                download
+                className="border-2 border-red-600 text-red-600 font-bold py-5 px-10 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 text-lg text-center inline-block"
+              >
+                DOWNLOAD CONTRACT
+              </a>
+              <Link 
+                href="/contact"
+                className="border-2 border-gray-600 text-gray-300 font-bold py-5 px-10 rounded-full hover:border-white hover:text-white transition-all duration-300 text-lg text-center"
+              >
                 CONTACT ADMISSIONS
-              </button>
+              </Link>
             </div>
 
             {/* Additional Info */}
             <div className="mt-12 pt-8 border-t border-gray-800">
               <p className="text-gray-400 mb-4">
                 <strong className="text-white">Training Sessions Available:</strong> 
-                Monday-Friday 4:00 PM - 8:00 PM | Saturday 9:00 AM - 3:00 PM
+                Contact coaches for personalized training schedules
               </p>
               <p className="text-gray-400">
-                <strong className="text-white">Location:</strong> 
-                Exceed CAD Training Facility, 123 Champions Drive, Newark, NJ 07102
+                <strong className="text-white">Locations:</strong> 
+                BCR School, Amiskwaciy Academy, Saint-Joseph - Edmonton, AB
               </p>
             </div>
           </div>
@@ -118,10 +129,10 @@ const TrainingCTASection = () => {
         {/* Final Message */}
         <div className="mt-16 text-center">
           <p className="text-2xl font-bold text-red-400 mb-4">
-            "Success is not given. It's earned in the gym, in the classroom, and in every decision you make."
+            "Excellence is not achieved overnight. It's built through dedication, discipline, and the pursuit of academic and athletic greatness."
           </p>
           <p className="text-gray-400 font-medium">
-            — Coach Marcus Johnson, Head of Basketball Development
+            — Coach Richardson, Exceed CAD Founder & Head Coach
           </p>
         </div>
 

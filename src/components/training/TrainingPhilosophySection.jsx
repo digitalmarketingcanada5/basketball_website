@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const TrainingPhilosophySection = () => {
   return (
@@ -77,9 +78,12 @@ const TrainingPhilosophySection = () => {
               ))}
             </div>
 
-            <button className="bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105">
+            <Link 
+              href="/contact"
+              className="inline-block bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105"
+            >
               START YOUR TRAINING JOURNEY
-            </button>
+            </Link>
           </div>
         </div>
       </div>

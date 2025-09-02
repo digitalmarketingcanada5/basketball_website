@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 const TrainingHeroSection = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -76,12 +77,18 @@ const TrainingHeroSection = () => {
               opacity: 1 - (scrollProgress * 0.5)
             }}
           >
-            <button className="bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 text-lg shadow-lg hover:shadow-xl transform hover:scale-105">
+            <Link 
+              href="/contact"
+              className="bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 text-center"
+            >
               JOIN TRAINING PROGRAM
-            </button>
-            <button className="border-2 border-white text-white font-bold py-4 px-8 rounded-full hover:bg-white hover:text-black transition-all duration-300 text-lg">
+            </Link>
+            <Link 
+              href="/contact"
+              className="border-2 border-white text-white font-bold py-4 px-8 rounded-full hover:bg-white hover:text-black transition-all duration-300 text-lg text-center"
+            >
               VIEW TRAINING SCHEDULE
-            </button>
+            </Link>
           </div>
 
         </div>

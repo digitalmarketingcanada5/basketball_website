@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const SkillDevelopmentSection = () => {
   const skillCategories = [
@@ -159,12 +160,18 @@ const SkillDevelopmentSection = () => {
             Our training programs run year-round with flexible scheduling to fit your academic commitments.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-white text-red-600 font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all duration-300 text-lg shadow-lg hover:shadow-xl transform hover:scale-105">
+            <Link 
+              href="/contact"
+              className="bg-white text-red-600 font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition-all duration-300 text-lg shadow-lg hover:shadow-xl transform hover:scale-105 text-center"
+            >
               VIEW TRAINING SCHEDULE
-            </button>
-            <button className="border-2 border-white text-white font-bold py-4 px-8 rounded-full hover:bg-white hover:text-red-600 transition-all duration-300 text-lg">
+            </Link>
+            <Link 
+              href="/contact"
+              className="border-2 border-white text-white font-bold py-4 px-8 rounded-full hover:bg-white hover:text-red-600 transition-all duration-300 text-lg text-center"
+            >
               BOOK EVALUATION SESSION
-            </button>
+            </Link>
           </div>
         </div>
 
