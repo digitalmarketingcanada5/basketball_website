@@ -16,10 +16,10 @@ const CampsHero = () => {
             alt="Group of young basketball players training at Exceed CAD" 
             className="rounded-lg w-full" 
           />
-          <button className="absolute bottom-4 left-4 bg-black bg-opacity-70 text-white font-bold py-3 px-6 rounded-full flex items-center hover:bg-red-600 transition-colors">
+          {/* <button className="absolute bottom-4 left-4 bg-black bg-opacity-70 text-white font-bold py-3 px-6 rounded-full flex items-center hover:bg-red-600 transition-colors">
             <PlayIcon />
             Play Video
-          </button>
+          </button> */}
         </div>
         <div className="text-left">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-4">
