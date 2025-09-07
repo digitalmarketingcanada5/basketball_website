@@ -6,10 +6,19 @@ const ProgramCard = ({ icon, title, subtitle, description, highlighted = false }
   } rounded-lg transition-all duration-300 hover:bg-red-700 hover:transform hover:scale-105 group border border-gray-800 hover:border-red-600`}>
     
     {/* Icon */}
-    <div className={`${highlighted ? 'bg-black' : 'bg-red-600'} p-4 rounded-full mb-6 transition-all duration-300 group-hover:bg-black`}>
-      {React.cloneElement(icon, { 
-        className: `h-8 w-8 ${highlighted ? 'text-red-600' : 'text-white'} group-hover:text-red-600` 
-      })}
+    <div className={`${highlighted ? 'bg-black' : 'bg-red-600'} p-4 rounded-full mb-6 transition-all duration-300 group-hover:bg-black flex items-center justify-center w-16 h-16`}>
+      <div className={`flex items-center justify-center ${highlighted ? 'text-red-400' : 'text-white'} group-hover:text-red-400`}>
+        {React.cloneElement(icon, { 
+          width: "32",
+          height: "32",
+          className: `w-8 h-8 ${highlighted ? 'text-red-400' : 'text-white'} group-hover:text-red-400`,
+          style: { 
+            color: highlighted ? '#f87171' : '#ffffff', 
+            stroke: highlighted ? '#f87171' : '#ffffff',
+            strokeWidth: '2'
+          }
+        })}
+      </div>
     </div>
     
     {/* Content */}
