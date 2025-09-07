@@ -74,7 +74,7 @@ const HeroSection = () => {
           }}
         >
           <img 
-            src="/images/hero-athletes.png" 
+            src="/images/hero-athletes2.png" 
             alt="Exceed CAD Student Athletes" 
             className="w-full max-w-6xl h-[90%] object-contain object-bottom"
           />
