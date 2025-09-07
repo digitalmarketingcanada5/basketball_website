@@ -36,7 +36,7 @@ const AboutPartnership = () => {
         
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 items-center">
           <div className="bg-gray-800 rounded-lg p-6 text-center">
-            <div className="text-red-600 text-2xl font-bold mb-2">3</div>
+            <div className="text-red-600 text-2xl font-bold mb-2">4</div>
             <div className="text-gray-300 text-sm">School Locations</div>
           </div>
           
@@ -56,7 +56,7 @@ const AboutPartnership = () => {
           </div>
           
           <div className="bg-gray-800 rounded-lg p-6 text-center">
-            <div className="text-red-600 text-2xl font-bold mb-2">6-12</div>
+            <div className="text-red-600 text-2xl font-bold mb-2">6-12/Post Secondary</div>
             <div className="text-gray-300 text-sm">Grade Levels</div>
           </div>
           

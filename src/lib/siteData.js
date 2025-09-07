@@ -26,7 +26,7 @@ export const navigation = {
 export const heroSection = {
   title: "BUILT DIFFERENT",
   subtitle: "Excellence in Academics & Athletics",
-  ctaText: "Join Grade 6-12 Program",
+  ctaText: "Join Our Program",
   backgroundImages: [
     "/images/hero-bg-1.png", // Will use placeholder images initially
     "/images/hero-bg-2.png",
@@ -64,7 +64,7 @@ export const programs = [
     id: "inclusive-support",
     title: "Inclusive Support",
     subtitle: "Special Needs Accommodation",
-    description: "Providing tailored resources and personalized coaching for participants of all backgrounds, including those with special needs. Our inclusive environment promotes growth, discipline, and respect for every student-athlete.",
+    description: "Providing tailored resources and personalized coaching for participants of all backgrounds, including those with special needs. Our inclusive environment promotes growth, discipline, and respect for every athlete.",
     icon: "InclusiveIcon",
     highlighted: false
   },
@@ -114,7 +114,7 @@ export const stats = [
   },
   {
     icon: "UsersIcon",
-    value: "6-12",
+    value: "6-12/Post Secondary",
     label: "Grade Levels"
   }
 ];

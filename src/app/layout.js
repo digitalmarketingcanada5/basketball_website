@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 export const metadata = {
   metadataBase: new URL('https://exceedcad.vercel.app'),
   title: "Exceed CADA - Academic Basketball Prep Program",
-  description: "Excellence in Academics & Athletics. An exceptional opportunity for young individuals from diverse backgrounds to excel both academically and athletically. Grades 6-12 program with Division I scholarships, Nike funding, and elite competition circuits.",
-  keywords: "basketball prep, academic excellence, Division I scholarships, elite basketball training, grades 6-12, Nike scholarships, CESPORTS, OBSA, special needs support, Edmonton basketball",
+  description: "Excellence in Academics & Athletics. An exceptional opportunity for young individuals from diverse backgrounds to excel both academically and athletically. Grades 6-12/Post Secondary program with Division I scholarships, Nike funding, and elite competition circuits.",
+  keywords: "basketball prep, academic excellence, Division I scholarships, elite basketball training, grades 6-12/post secondary, Nike scholarships, CESPORTS, OBSA, special needs support, Edmonton basketball",
   authors: [{ name: "Exceed CADA" }],
   creator: "Exceed CADA Academic Basketball Prep Program",
   publisher: "Exceed CADA",
@@ -25,7 +25,7 @@ export const metadata = {
     url: "https://exceedcad.com",
     siteName: "Exceed CADA",
     title: "Exceed CADA - Academic Basketball Prep Program",
-    description: "Excellence in Academics & Athletics. Elite basketball training combined with rigorous academic standards for grades 6-12 students.",
+    description: "Excellence in Academics & Athletics. Elite basketball training combined with rigorous academic standards for grades 6-12/Post Secondary students.",
     images: [
       {
         url: "/images/og-image.jpg",

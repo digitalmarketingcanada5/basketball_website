@@ -44,7 +44,7 @@ const StorySection = () => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
               {[
-                "Grades 6-12 Academic Excellence",
+                "Grades 6-12/Post Secondary Academic Excellence",
                 "Elite Basketball Training And Development", 
                 "Division I Scholarship Pathways",
                 "Inclusive Support for All Students"
