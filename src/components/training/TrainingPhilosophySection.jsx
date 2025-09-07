@@ -46,7 +46,7 @@ const TrainingPhilosophySection = () => {
               </p>
               
               <p className="text-gray-300 leading-relaxed text-lg">
-                Exceed CAD offers structured, <strong className="text-red-400">high-intensity training programs</strong> designed to help young athletes refine their skills, improve their game IQ, and <strong className="text-white">become the kind of player that makes an impact on the court.</strong>
+                Exceed CADA offers structured, <strong className="text-red-400">high-intensity training programs</strong> designed to help young athletes refine their skills, improve their game IQ, and <strong className="text-white">become the kind of player that makes an impact on the court.</strong>
               </p>
               
               <p className="text-gray-300 leading-relaxed text-lg">

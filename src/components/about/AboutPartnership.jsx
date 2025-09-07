@@ -12,7 +12,7 @@ const AboutPartnership = () => {
           <h3 className="text-sm font-bold uppercase tracking-[0.2em] text-gray-400 mb-2">Our Partners & Community</h3>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Building Futures Together</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
-            At Exceed CAD, our partnerships extend beyond traditional sponsorships. We collaborate with educational institutions, community organizations, and basketball leagues to create comprehensive pathways for student-athlete success. Through these strategic alliances, we're able to maintain our high academic standards while providing elite athletic training opportunities.
+            At Exceed CADA, our partnerships extend beyond traditional sponsorships. We collaborate with educational institutions, community organizations, and basketball leagues to create comprehensive pathways for student-athlete success. Through these strategic alliances, we're able to maintain our high academic standards while providing elite athletic training opportunities.
           </p>
           <RedLineIcon />
           

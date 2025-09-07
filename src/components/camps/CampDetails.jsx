@@ -36,7 +36,7 @@ const CampDetails = () => {
             </li>
           </ul>
           <p className="mt-6 text-gray-300 font-semibold">
-            Exceed CAD is committed to <strong>making basketball affordable and accessible</strong>, ensuring that every young athlete who wants to improve has a place to do so.
+            Exceed CADA is committed to <strong>making basketball affordable and accessible</strong>, ensuring that every young athlete who wants to improve has a place to do so.
           </p>
           <div className="w-16 h-1 bg-red-600 mt-8"></div>
         </div>

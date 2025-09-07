@@ -40,13 +40,13 @@ const Header = () => {
     <header className="absolute top-0 left-0 w-full z-50 py-4 px-4 sm:px-8">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <div className="flex items-center space-x-3">
+        <Link href="/" className="flex items-center space-x-3">
           <Logo />
           <div className="hidden md:block">
-            <h3 className="text-white font-bold text-lg">EXCEED CAD</h3>
+            <h3 className="text-white font-bold text-lg">EXCEED CADA</h3>
             <p className="text-gray-400 text-xs">Academic Basketball Prep</p>
           </div>
-        </div>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center space-x-6 text-sm font-bold">

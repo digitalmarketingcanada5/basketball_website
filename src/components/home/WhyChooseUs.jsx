@@ -25,7 +25,7 @@ const WhyChooseUs = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="text-center mb-16">
           <h2 className="text-sm font-bold uppercase tracking-[0.3em] text-gray-400 mb-4">
-            Why Choose Exceed CAD
+            Why Choose Exceed CADA
           </h2>
           <div className="w-20 h-1 bg-red-600 mx-auto"></div>
         </div>

@@ -67,7 +67,7 @@ const TrainingCTASection = () => {
             </h2>
             
             <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Join the Exceed CAD Academic Basketball Prep Program and take the first step 
+              Join the Exceed CADA Academic Basketball Prep Program and take the first step 
               toward achieving excellence both on the court and in the classroom.
             </p>
 
@@ -132,7 +132,7 @@ const TrainingCTASection = () => {
             "Excellence is not achieved overnight. It's built through dedication, discipline, and the pursuit of academic and athletic greatness."
           </p>
           <p className="text-gray-400 font-medium">
-            — Coach Richardson, Exceed CAD Founder & Head Coach
+            — Coach Richardson, Exceed CADA Founder & Head Coach
           </p>
         </div>
 

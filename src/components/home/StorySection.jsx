@@ -13,7 +13,7 @@ const StorySection = () => {
             <div className="relative overflow-hidden rounded-lg">
               <img 
                 src="/images/our_story_image.png" 
-                alt="Exceed CAD Academic Basketball Program - Our Story" 
+                alt="Exceed CADA Academic Basketball Program - Our Story" 
                 className="w-full h-[400px] object-cover transform hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -34,10 +34,10 @@ const StorySection = () => {
                 <p key={index} className="text-gray-300 leading-relaxed text-lg">
                   {index === 0 && (
                     <span className="text-red-400 font-semibold">
-                      Exceed CAD Academic Basketball Prep Program
+                      Exceed CADA Academic Basketball Prep Program
                     </span>
                   )}
-                  {index === 0 ? paragraph.replace('Exceed CAD Academic Basketball Prep Program', '') : paragraph}
+                  {index === 0 ? paragraph.replace('Exceed CADA Academic Basketball Prep Program', '') : paragraph}
                 </p>
               ))}
             </div>

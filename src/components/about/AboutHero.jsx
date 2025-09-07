@@ -13,23 +13,23 @@ const AboutHero = () => {
           <div className="absolute w-full h-full bg-red-600 rounded-full scale-75 blur-2xl opacity-30"></div>
           <img 
             src="/images/about_us.png" 
-            alt="Exceed CAD Team" 
+            alt="Exceed CADA Team" 
             className="rounded-full w-full max-w-md z-10" 
           />
         </div>
         <div>
           <h2 className="text-sm font-bold uppercase tracking-[0.2em] text-gray-400 mb-2">BUILT DIFFERENT</h2>
           <p className="text-gray-300 leading-relaxed mb-6">
-            Basketball is more than a game at Exceed CAD—it's a pathway to academic and athletic excellence. Based in Edmonton, Alberta, we proudly serve young student-athletes from diverse backgrounds, offering programs that combine rigorous academic standards with elite basketball training. Our approach is transformative: provide exceptional opportunities that are accessible, inclusive, and designed to develop future leaders both in the classroom and on the court.
+            Basketball is more than a game at Exceed CADA—it's a pathway to academic and athletic excellence. Based in Edmonton, Alberta, we proudly serve young student-athletes from diverse backgrounds, offering programs that combine rigorous academic standards with elite basketball training. Our approach is transformative: provide exceptional opportunities that are accessible, inclusive, and designed to develop future leaders both in the classroom and on the court.
           </p>
           <RedLineIcon />
           <h4 className="font-bold text-xl mb-2">Our Why</h4>
           <p className="text-gray-300 leading-relaxed mb-6">
-            We believe every student-athlete deserves the chance to excel academically and athletically, regardless of their background or circumstances. Exceed CAD was founded to create an educational ecosystem where academic excellence meets basketball mastery, where a 75% minimum academic average is maintained alongside elite athletic training. By making quality education and basketball development accessible, we're not just shaping players—we're empowering future leaders.
+            We believe every student-athlete deserves the chance to excel academically and athletically, regardless of their background or circumstances. Exceed CADA was founded to create an educational ecosystem where academic excellence meets basketball mastery, where a 75% minimum academic average is maintained alongside elite athletic training. By making quality education and basketball development accessible, we're not just shaping players—we're empowering future leaders.
           </p>
           <h4 className="font-bold text-xl mb-2">Our Mission</h4>
           <p className="text-gray-300 leading-relaxed mb-6">
-            Our mission is to build confident, capable student-athletes who embody academic excellence, sportsmanship, and leadership. Through innovative education, comprehensive basketball training, elite competition opportunities, and scholarship pathways, Exceed CAD is redefining what it means to be a student-athlete. We create lifelong success stories, ensuring education and basketball remain transformative forces in the lives of all who participate.
+            Our mission is to build confident, capable student-athletes who embody academic excellence, sportsmanship, and leadership. Through innovative education, comprehensive basketball training, elite competition opportunities, and scholarship pathways, Exceed CADA is redefining what it means to be a student-athlete. We create lifelong success stories, ensuring education and basketball remain transformative forces in the lives of all who participate.
           </p>
         </div>
       </div>

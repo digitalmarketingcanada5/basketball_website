@@ -7,7 +7,7 @@ import SkillDevelopmentSection from '../../components/training/SkillDevelopmentS
 import TrainingCTASection from '../../components/training/TrainingCTASection';
 
 export const metadata = {
-  title: 'Training Programs - Exceed CAD Academic Basketball Prep',
+  title: 'Training Programs - Exceed CADA Academic Basketball Prep',
   description: 'Elite basketball training programs combining academic excellence with high-performance athletics. Develop your skills, improve your game, and exceed your limits.',
   keywords: 'basketball training, academic basketball, elite training, skill development, basketball camps, New Jersey basketball',
 };

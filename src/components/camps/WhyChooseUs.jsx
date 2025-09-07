@@ -13,24 +13,24 @@ const WhyChooseUs = () => {
         <div className="grid grid-cols-2 gap-4">
           <img 
             src="/images/training1.png" 
-            alt="Exceed CAD player training" 
+            alt="Exceed CADA player training" 
             className="rounded-lg w-full object-cover" 
           />
           <div className="space-y-4">
             <img 
               src="/images/training2.png" 
-              alt="Exceed CAD basketball skills" 
+              alt="Exceed CADA basketball skills" 
               className="rounded-lg w-full h-auto object-cover" 
             />
             <img 
               src="/images/team-celebration.png" 
-              alt="Exceed CAD team celebration" 
+              alt="Exceed CADA team celebration" 
               className="rounded-lg w-full h-auto object-cover" 
             />
           </div>
         </div>
         <div>
-          <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">Why Choose Exceed CAD Camps?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">Why Choose Exceed CADA Camps?</h2>
           <div className="w-16 h-1 bg-red-600 mb-8"></div>
           <ul className="space-y-4 text-gray-300">
             <li className="flex items-start">
