@@ -79,8 +79,8 @@ export const programs = [
   {
     id: "multiple-locations",
     title: "Multiple Locations",
-    subtitle: "3 School Options Available",
-    description: "Choose from three convenient school locations: BCR School, Amiskwaciy Academy, and Saint-Joseph. Each location offers full academic and athletic programs with specialized facilities.",
+    subtitle: "4 School Options Available",
+    description: "Choose from four convenient school locations: BCR School, Amiskwaciy Academy, Saint-Joseph, and Great Lyn Academy in Ontario. Each location offers full academic and athletic programs with facilities.",
     icon: "CommunityIcon",
     highlighted: false
   }
@@ -109,7 +109,7 @@ export const stats = [
   },
   {
     icon: "CommunityIcon",
-    value: "3",
+    value: "4",
     label: "School Locations"
   },
   {
@@ -230,6 +230,13 @@ export const schools = [
     name: "Saint-Joseph",
     address: "10830 109 St", 
     city: "Edmonton, AB",
+    programs: ["Grades 8-12", "Full Academic Program"]
+  },
+  {
+    id: "great-lyn-academy",
+    name: "Great Lyn Academy",
+    address: "Ontario Location", 
+    city: "Ontario, Canada",
     programs: ["Grades 8-12", "Full Academic Program"]
   }
 ];
