@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import Link from 'next/link';
 import { FacebookIcon, InstagramIcon, XIcon, YouTubeIcon, TikTokIcon } from '../icons';
 import { heroSection, socialMediaLinks } from '../../lib/siteData';
 
@@ -33,10 +34,8 @@ const HeroSection = () => {
             return (
               <li key={index}>
                 <a 
-                  href={social.url} 
+                  href="/contact" 
                   className="p-2 inline-block text-white bg-gray-900 rounded-full hover:bg-red-600 transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
                 >
                   <IconComponent />
                 </a>
@@ -104,9 +103,11 @@ const HeroSection = () => {
           transform: `translateX(-50%) translateY(${30 - (scrollProgress * 30)}px)`
         }}
       >
-        <button className="bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 text-lg shadow-lg hover:shadow-xl hover:scale-105">
-          {heroSection.ctaText}
-        </button>
+        <Link href="/contact">
+          <button className="bg-red-600 text-white font-bold py-4 px-8 rounded-full hover:bg-red-700 transition-all duration-300 text-lg shadow-lg hover:shadow-xl hover:scale-105">
+            {heroSection.ctaText}
+          </button>
+        </Link>
       </div>
 
       {/* Join The Movement - Bottom Right */}
