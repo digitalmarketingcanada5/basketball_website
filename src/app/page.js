@@ -8,7 +8,7 @@ import StatsSection from '../components/home/StatsSection';
 import ProgramsSection from '../components/home/ProgramsSection';
 import CoachesSection from '../components/home/CoachesSection';
 import CTASection from '../components/home/CTASection';
-import NewsSection from '../components/home/NewsSection';
+// import NewsSection from '../components/home/NewsSection';
 
 export default function Home() {
   return (
@@ -40,7 +40,7 @@ export default function Home() {
         <CTASection />
 
         {/* Recent News Section */}
-        <NewsSection />
+        {/* <NewsSection /> */}
       </main>
 
       {/* Footer */}
