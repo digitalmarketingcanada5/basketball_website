@@ -47,7 +47,7 @@ const WhyChooseUs = () => {
             </li>
             <li className="flex items-start">
               <CheckIcon />
-              <strong>Scholarship Pathway Support</strong> – Direct connection to our Division I pathways and $5,000 Nike scholarship program.
+              <strong>Scholarship Pathway Support</strong> – Direct connection to our Division I pathways and Academic And Athletic Scholarship Bursary of $5000 for those who qualify.
             </li>
           </ul>
         </div>

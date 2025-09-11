@@ -28,8 +28,8 @@ const AboutPartnership = () => {
             </div>
             
             <div>
-              <h4 className="font-bold text-lg text-white mb-2">Nike Scholarship Program</h4>
-              <p className="text-gray-300 text-sm">Annual $5,000 scholarship fund supporting top male and female athletes per age category based on academic and athletic achievements.</p>
+              <h4 className="font-bold text-lg text-white mb-2">Academic Scholarship Program</h4>
+              <p className="text-gray-300 text-sm">Academic And Athletic Scholarship Bursary of $5000 are available to those who qualify based on academic and athletic achievements.</p>
             </div>
           </div>
         </div>
@@ -47,7 +47,7 @@ const AboutPartnership = () => {
           
           <div className="bg-gray-800 rounded-lg p-6 text-center">
             <div className="text-red-600 text-2xl font-bold mb-2">$5K</div>
-            <div className="text-gray-300 text-sm">Nike Scholarships</div>
+            <div className="text-gray-300 text-sm">Academic Scholarships</div>
           </div>
           
           <div className="bg-gray-800 rounded-lg p-6 text-center">

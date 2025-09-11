@@ -93,7 +93,7 @@ const AboutPillars = () => {
           <PillarCard 
             icon={<ScholarshipIcon />} 
             title="Scholarship Pathways" 
-            description="We create clear pathways to post-secondary success through Division I institution connections and our annual $5,000 Nike scholarship fund. Academic and athletic merit combine to open doors for our student-athletes' futures." 
+            description="We create clear pathways to post-secondary success through Division I institution connections. Academic And Athletic Scholarship Bursary of $5000 are available to those who qualify. Academic and athletic merit combine to open doors for our student-athletes' futures." 
           />
           <PillarCard 
             icon={<CommunityIcon />} 

@@ -55,8 +55,8 @@ export const programs = [
   {
     id: "scholarship-pathways",
     title: "Scholarship Pathways",
-    subtitle: "Division I & Nike Scholarships",
-    description: "Comprehensive support for Division I institution scholarships with $5,000 annual Nike scholarship fund. Awarded to top male and female athletes per age category based on academic and athletic achievements.",
+    subtitle: "Division I & Academic Scholarships",
+    description: "Comprehensive support for Division I institution scholarships. Academic And Athletic Scholarship Bursary of $5000 are available to those who qualify based on academic and athletic achievements.",
     icon: "ScholarshipIcon",
     highlighted: false
   },
@@ -105,7 +105,7 @@ export const stats = [
   {
     icon: "ScholarshipIcon", 
     value: "$5,000",
-    label: "Nike Scholarship"
+    label: "Academic Scholarship"
   },
   {
     icon: "CommunityIcon",
@@ -282,12 +282,12 @@ export const news = [
   },
   {
     id: "nike-scholarship-winners",
-    title: "2024 Nike Scholarship Recipients Announced",
+    title: "2024 Academic Scholarship Recipients Announced",
     category: "SCHOLARSHIPS",
     author: "ADMIN", 
     date: "November 2024",
     image: "/images/news-2.jpg",
-    excerpt: "Celebrating our outstanding student-athletes who earned the prestigious $5,000 Nike scholarships for academic and athletic excellence."
+    excerpt: "Celebrating our outstanding student-athletes who earned the prestigious Academic And Athletic Scholarship Bursary of $5000 for academic and athletic excellence."
   },
   {
     id: "cesports-championship",
