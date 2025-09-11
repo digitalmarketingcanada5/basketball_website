@@ -23,8 +23,8 @@ const ProgramsSection = () => {
             </div>
             <div className="relative group mt-12">
               <img 
-                src="https://images.unsplash.com/photo-1574623452334-1e0ac2b3ccb4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" 
-                alt="Basketball training and skill development" 
+                src="/images/wilson_evolution.jpg" 
+                alt="Wilson Evolution basketballs - Elite Basketball Training" 
                 className="rounded-lg w-full h-[280px] object-cover group-hover:scale-105 transition-transform duration-500" 
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg"></div>
