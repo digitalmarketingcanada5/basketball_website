@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex flex-col items-start mb-6">
               <Logo />
-              <h3 className="text-2xl font-bold mt-4 text-white">EXCEED CADA</h3>
+              <h3 className="text-2xl font-bold mt-4 text-white">EXCEED</h3>
               <p className="text-gray-400 text-sm mt-2">{siteInfo.tagline}</p>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed">
@@ -89,7 +89,7 @@ const Footer = () => {
           </nav>
           
           <div className="text-center text-gray-500 text-sm">
-            <p>&copy; 2025 Exceed CADA Academic Basketball Prep Program. All rights reserved.</p>
+            <p>&copy; 2025 EXCEED Academic Basketball Prep Program. All rights reserved.</p>
           </div>
         </div>
       </div>

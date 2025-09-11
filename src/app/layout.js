@@ -13,31 +13,31 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   metadataBase: new URL('https://exceedcad.vercel.app'),
-  title: "Exceed CADA - Academic Basketball Prep Program",
+  title: "EXCEED - Academic Basketball Prep Program",
   description: "Excellence in Academics & Athletics. An exceptional opportunity for young individuals from diverse backgrounds to excel both academically and athletically. Grades 6-12/Post Secondary program with Division I scholarships, Nike funding, and elite competition circuits.",
   keywords: "basketball prep, academic excellence, Division I scholarships, elite basketball training, grades 6-12/post secondary, academic scholarships, CESPORTS, OBSA, special needs support, Edmonton basketball",
-  authors: [{ name: "Exceed CADA" }],
-  creator: "Exceed CADA Academic Basketball Prep Program",
-  publisher: "Exceed CADA",
+  authors: [{ name: "EXCEED" }],
+  creator: "EXCEED Academic Basketball Prep Program",
+  publisher: "EXCEED",
   openGraph: {
     type: "website",
     locale: "en_CA",
     url: "https://exceedcad.com",
-    siteName: "Exceed CADA",
-    title: "Exceed CADA - Academic Basketball Prep Program",
+    siteName: "EXCEED",
+    title: "EXCEED - Academic Basketball Prep Program",
     description: "Excellence in Academics & Athletics. Elite basketball training combined with rigorous academic standards for grades 6-12/Post Secondary students.",
     images: [
       {
         url: "/images/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Exceed CADA Academic Basketball Prep Program"
+        alt: "EXCEED Academic Basketball Prep Program"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Exceed CADA - Academic Basketball Prep Program",
+    title: "EXCEED - Academic Basketball Prep Program",
     description: "Excellence in Academics & Athletics. Elite basketball training with academic excellence.",
     images: ["/images/twitter-image.jpg"]
   },

@@ -82,7 +82,7 @@ const AboutPillars = () => {
           <PillarCard 
             icon={<AcademicIcon />} 
             title="Academic Excellence" 
-            description="Every student-athlete's success starts with academic achievement. At Exceed CADA, we maintain a 75% minimum academic average while providing Individualized Education Plans (IEPs) and specialized support for diverse learning needs, ensuring both classroom and court excellence." 
+            description="Every student-athlete's success starts with academic achievement. At EXCEED, we maintain a 75% minimum academic average while providing Individualized Education Plans (IEPs) and specialized support for diverse learning needs, ensuring both classroom and court excellence." 
           />
           <PillarCard 
             icon={<BasketballIcon />} 
@@ -108,7 +108,7 @@ const AboutPillars = () => {
           <PillarCard 
             icon={<ExcellenceIcon />} 
             title="Join Us in Building Excellence" 
-            description="At Exceed CADA, every lesson, practice, and game is a step toward building something extraordinary. By focusing on academic achievement, athletic excellence, and inclusive support, we're transforming what it means to be a student-athlete." 
+            description="At EXCEED, every lesson, practice, and game is a step toward building something extraordinary. By focusing on academic achievement, athletic excellence, and inclusive support, we're transforming what it means to be a student-athlete." 
           />
         </div>
       </div>

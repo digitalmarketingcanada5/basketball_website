@@ -18,11 +18,11 @@ const CampsPage = () => {
             <main>
                 <div className="pt-24 md:pt-32">
                     
-                    <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">Exceed CADA Camps</h1>
+                    <h1 className="text-4xl md:text-5xl font-bold text-center mb-12">EXCEED Camps</h1>
 
                     <CampsHero />
 
-                    <h2 className="text-4xl md:text-5xl font-bold text-center my-16">Exceed CADA Training Programs</h2>
+                    <h2 className="text-4xl md:text-5xl font-bold text-center my-16">EXCEED Training Programs</h2>
 
                     <CampDetails />
 

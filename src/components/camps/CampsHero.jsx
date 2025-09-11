@@ -13,7 +13,7 @@ const CampsHero = () => {
         <div className="relative">
           <img 
             src="/images/training_group.png" 
-            alt="Group of young basketball players training at Exceed CADA" 
+            alt="Group of young basketball players training at EXCEED" 
             className="rounded-lg w-full" 
           />
           {/* <button className="absolute bottom-4 left-4 bg-black bg-opacity-70 text-white font-bold py-3 px-6 rounded-full flex items-center hover:bg-red-600 transition-colors">
@@ -29,7 +29,7 @@ const CampsHero = () => {
           </h2>
           <div className="w-16 h-1 bg-red-600 my-6"></div>
           <p className="text-gray-300 leading-relaxed">
-            Basketball is more than just a game—it's an opportunity. <strong>Exceed CADA Camps are designed to provide young athletes with a place to train, compete, and grow without financial barriers standing in the way.</strong> Whether you're learning the fundamentals or preparing for the next level, our year-round camps ensure that every player has access to structured coaching, skill development, and real game experience.
+            Basketball is more than just a game—it's an opportunity. <strong>EXCEED Camps are designed to provide young athletes with a place to train, compete, and grow without financial barriers standing in the way.</strong> Whether you're learning the fundamentals or preparing for the next level, our year-round camps ensure that every player has access to structured coaching, skill development, and real game experience.
           </p>
         </div>
       </div>

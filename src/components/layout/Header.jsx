@@ -43,7 +43,7 @@ const Header = () => {
         <Link href="/" className="flex items-center space-x-3">
           <Logo />
           <div className="hidden md:block">
-            <h3 className="text-white font-bold text-lg">EXCEED CADA</h3>
+            <h3 className="text-white font-bold text-lg">EXCEED</h3>
             <p className="text-gray-400 text-xs">Academic Basketball Prep</p>
           </div>
         </Link>

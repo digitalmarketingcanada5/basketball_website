@@ -1,8 +1,8 @@
-// Exceed CADA Academic Basketball Prep Program - Site Data
+// EXCEED Academic Basketball Prep Program - Site Data
 
 export const siteInfo = {
-  name: "Exceed CADA",
-  fullName: "Exceed CADA Academic Basketball Prep Program",
+  name: "EXCEED",
+  fullName: "EXCEED Academic Basketball Prep Program",
   tagline: "Excellence in Academics & Athletics",
   description: "An exceptional opportunity for young individuals from diverse backgrounds to excel both academically and athletically.",
   logo: "/logo.svg", // Will need to replace with actual logo
@@ -89,7 +89,7 @@ export const programs = [
 export const aboutSection = {
   title: "OUR STORY",
   description: [
-    "Exceed CADA Academic Basketball Prep Program is an exceptional opportunity for young individuals from diverse backgrounds, including those with special needs, to excel both academically and athletically.",
+    "EXCEED Academic Basketball Prep Program is an exceptional opportunity for young individuals from diverse backgrounds, including those with special needs, to excel both academically and athletically.",
     "The program combines rigorous academic standards with comprehensive basketball training, fostering an environment that promotes growth, discipline, respect, and success. We are building the next generation of student-athletes who excel both on the court and in the classroom."
   ],
   image: "/images/about-team.jpg",
@@ -122,7 +122,7 @@ export const stats = [
 export const programsDetail = {
   title: "DISCOVER PROGRAMS AND OPPORTUNITIES",
   subtitle: "From Training to Competition, We've Got You Covered",
-  description: "Exceed CADA offers comprehensive programs tailored to meet every student-athlete's needs. Whether you're looking for academic support, elite basketball training, scholarship opportunities, or university preparation, you'll find everything you need right here.",
+  description: "EXCEED offers comprehensive programs tailored to meet every student-athlete's needs. Whether you're looking for academic support, elite basketball training, scholarship opportunities, or university preparation, you'll find everything you need right here.",
   images: [
     "/images/program-1.jpg",
     "/images/program-2.jpg"
@@ -273,7 +273,7 @@ export const ctaSection = {
 export const news = [
   {
     id: "academic-excellence-2024",
-    title: "Exceed CADA Achieves 95% University Acceptance Rate",
+    title: "EXCEED Achieves 95% University Acceptance Rate",
     category: "ACADEMICS", 
     author: "ADMIN",
     date: "December 2024",
@@ -291,7 +291,7 @@ export const news = [
   },
   {
     id: "cesports-championship",
-    title: "Exceed CADA Teams Dominate CESPORTS Championships",
+    title: "EXCEED Teams Dominate CESPORTS Championships",
     category: "BASKETBALL",
     author: "ADMIN",
     date: "October 2024", 
