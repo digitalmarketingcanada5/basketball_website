@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 import CoachCard from '../ui/CoachCard';
 import { coaches } from '../../lib/siteData';
@@ -21,10 +22,7 @@ const CoachesSection = () => {
               <div className="text-center mb-6">
                 <div className="relative mb-6 overflow-hidden rounded-lg">
                   <img 
-                    src={index === 0 ? 
-                      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3" : 
-                      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3"
-                    }
+                    src="/images/coach.png"
                     alt={coach.name} 
                     className="w-full h-[300px] object-cover grayscale group-hover:grayscale-0 transition-all duration-500 group-hover:scale-105" 
                   />
