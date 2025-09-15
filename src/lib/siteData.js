@@ -265,7 +265,7 @@ export const contact = {
 };
 
 export const ctaSection = {
-  title: "READY TO EXCEL? START YOUR JOURNEY!",
+  title: "READY TO EXCEED? START YOUR JOURNEY!",
   subtitle: "Applications now open - Limited spaces available",
   buttonText: "APPLY NOW"
 };
