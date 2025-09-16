@@ -132,14 +132,6 @@ export const programsDetail = {
 
 export const coaches = [
   {
-    id: "berri-curtis",
-    name: "BERRI CURTIS",
-    title: "Director & Coach",
-    contact: "780-932-9922",
-    image: "/images/coach.png",
-    description: "Over 30 years in elite-level coaching, specializing in developing high-performance athletes with focus on excellence, leadership, and connecting youth with post-secondary institutions."
-  },
-  {
     id: "anthony-richardson", 
     name: "ANTHONY RICHARDSON",
     title: "Founder & Coach",

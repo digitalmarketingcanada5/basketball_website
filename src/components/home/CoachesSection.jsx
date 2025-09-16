@@ -14,9 +14,9 @@ const CoachesSection = () => {
           <div className="w-20 h-1 bg-red-600 mx-auto"></div>
         </div>
         
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="flex justify-center">
           {coaches.map((coach, index) => (
-            <div key={coach.id} className="group">
+            <div key={coach.id} className="group max-w-md w-full">
               
               {/* Coach Card */}
               <div className="text-center mb-6">
