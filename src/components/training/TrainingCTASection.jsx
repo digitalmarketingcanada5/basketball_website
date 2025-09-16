@@ -72,19 +72,12 @@ const TrainingCTASection = () => {
             </p>
 
             {/* Contact Information */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12 max-w-4xl mx-auto">
-              <div className="bg-gray-900 p-6 rounded-lg">
-                <h4 className="text-xl font-bold text-white mb-3">Training Inquiries</h4>
+            <div className="grid grid-cols-1 gap-8 mb-12 max-w-md mx-auto">
+              <div className="bg-gray-900 p-6 rounded-lg text-center">
+                <h4 className="text-xl font-bold text-white mb-3">Training & Academic Inquiries</h4>
                 <p className="text-gray-300 mb-2">Coach Richardson</p>
                 <a href="tel:437-286-1388" className="text-red-400 font-bold text-lg hover:text-red-300 transition-colors">
                   437-286-1388
-                </a>
-              </div>
-              <div className="bg-gray-900 p-6 rounded-lg">
-                <h4 className="text-xl font-bold text-white mb-3">Academic Programs</h4>
-                <p className="text-gray-300 mb-2">Coach B (Berri Curtis)</p>
-                <a href="tel:780-932-9922" className="text-red-400 font-bold text-lg hover:text-red-300 transition-colors">
-                  780-932-9922
                 </a>
               </div>
             </div>

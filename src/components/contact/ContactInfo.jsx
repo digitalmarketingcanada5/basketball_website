@@ -81,7 +81,7 @@ const ContactInfo = () => {
 
         {/* Additional Contact Methods */}
         <div className="mt-16 bg-black p-8 rounded-lg">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
               <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -110,16 +110,6 @@ const ContactInfo = () => {
               </div>
               <h4 className="text-white font-bold mb-2">Coach Richardson</h4>
               <p className="text-gray-300 text-sm">437-286-1388</p>
-            </div>
-
-            <div>
-              <div className="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
-              <h4 className="text-white font-bold mb-2">Coach B (Berri Curtis)</h4>
-              <p className="text-gray-300 text-sm">780-932-9922</p>
             </div>
           </div>
         </div>

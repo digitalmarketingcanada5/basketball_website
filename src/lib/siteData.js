@@ -239,11 +239,6 @@ export const contact = {
       name: "Coach Richardson",
       phone: "437-286-1388",
       role: "Founder & Coach"
-    },
-    {
-      name: "Coach B (Berri Curtis)",
-      phone: "780-932-9922", 
-      role: "Director & Coach"
     }
   ],
   general: {
