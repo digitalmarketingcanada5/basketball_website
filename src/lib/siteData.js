@@ -132,10 +132,10 @@ export const programsDetail = {
 
 export const coaches = [
   {
-    id: "anthony-richardson", 
-    name: "ANTHONY RICHARDSON",
-    title: "Founder & Coach",
-    contact: "437-286-1388",
+    id: "anthony-richards", 
+    name: "ANTHONY RICHARDS",
+    title: "Head Coach",
+    contact: "+1 (416) 779‑8878",
     image: "/images/coach.png",
     description: "Ontario-based with Toronto roots, combining Toronto methodologies with U.S. collegiate systems. Dominant, strategic approach with emphasis on offensive and defensive discipline."
   }
@@ -236,9 +236,9 @@ export const schools = [
 export const contact = {
   primary: [
     {
-      name: "Coach Richardson",
-      phone: "437-286-1388",
-      role: "Founder & Coach"
+      name: "Coach Richards",
+      phone: "+1 (416) 779‑8878",
+      role: "Head Coach"
     }
   ],
   general: {
