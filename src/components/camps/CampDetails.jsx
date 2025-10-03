@@ -12,7 +12,7 @@ const CampDetails = () => {
     <section className="pb-12 px-4 sm:px-8">
       <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
-          <h3 className="text-2xl font-bold text-white mb-4">Camp #1: Grades 6-8 Athletes</h3>
+          <h3 className="text-2xl font-bold text-white mb-4">Camp #1: Grades 5 to University Athletes</h3>
           <p className="text-gray-400 font-semibold mb-4">Building Skills. Creating Access. Providing an Outlet.</p>
           <p className="text-gray-300 mb-6">
             For younger athletes, basketball is about <strong>learning, confidence, and having a place to develop.</strong> This camp provides an environment where players can:
@@ -42,10 +42,10 @@ const CampDetails = () => {
         </div>
 
         <div>
-          <h3 className="text-2xl font-bold text-white mb-4">Camp #2: High School Prep Athletes (Grades 9-12)</h3>
+          <h3 className="text-2xl font-bold text-white mb-4">Camp #2: Grades 7 to 5th Year Athletes</h3>
           <p className="text-gray-400 font-semibold mb-4">Focused Training. Real Feedback. Elite Preparation.</p>
           <p className="text-gray-300 mb-6">
-            For athletes preparing for high school and post-secondary basketball, <strong>the competition gets tougher, and expectations rise.</strong> This camp is built for those ready to take the next step, offering:
+            For athletes from Grade 7 through 5th year post-secondary, <strong>the competition gets tougher, and expectations rise.</strong> This camp is built for those ready to take the next step, offering:
           </p>
           <ul className="space-y-4 text-gray-300">
             <li className="flex items-start">
