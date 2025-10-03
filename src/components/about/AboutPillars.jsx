@@ -87,7 +87,7 @@ const AboutPillars = () => {
           <PillarCard 
             icon={<BasketballIcon />} 
             title="Elite Basketball Training" 
-            description="Our comprehensive basketball program combines over 30 years of coaching expertise with modern training methodologies. From fundamental skills to elite competition preparation, we develop complete players ready for CESPORTS, Phoenix, and NPH circuits." 
+            description="Our comprehensive basketball program combines over 15 years of coaching expertise with modern training methodologies. From fundamental skills to elite competition preparation, we develop complete players ready for CESPORTS, Phoenix, and NPH circuits." 
             highlighted 
           />
           <PillarCard 
@@ -103,7 +103,7 @@ const AboutPillars = () => {
           <PillarCard 
             icon={<CoachingIcon />} 
             title="Professional Coaching" 
-            description="Led by coaches with over 30 years of elite-level experience, our program combines Toronto-based training methodologies with U.S. collegiate systems. We emphasize both offensive and defensive discipline while developing basketball IQ." 
+            description="Led by coaches with over 15 years of elite-level experience, our program combines Toronto-based training methodologies with U.S. collegiate systems. We emphasize both offensive and defensive discipline while developing basketball IQ." 
           />
           <PillarCard 
             icon={<ExcellenceIcon />} 

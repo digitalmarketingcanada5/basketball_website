@@ -57,7 +57,7 @@ const CoachesSection = () => {
           <p className="text-gray-300 max-w-4xl mx-auto leading-relaxed text-lg">
             All our coaches have personally navigated and overcome barriers to achieving academic degrees while facing adversity. 
             They aim to help young people achieve success in both sport and academics, preparing them for adult life with 
-            over <span className="text-red-400 font-semibold">30 years of combined elite-level coaching experience</span>.
+            over <span className="text-red-400 font-semibold">15 years of combined elite-level coaching experience</span>.
           </p>
         </div>
       </div>

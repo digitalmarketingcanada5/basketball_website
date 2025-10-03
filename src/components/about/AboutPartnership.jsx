@@ -51,7 +51,7 @@ const AboutPartnership = () => {
           </div>
           
           <div className="bg-gray-800 rounded-lg p-6 text-center">
-            <div className="text-red-600 text-2xl font-bold mb-2">30+</div>
+            <div className="text-red-600 text-2xl font-bold mb-2">15+</div>
             <div className="text-gray-300 text-sm">Years Experience</div>
           </div>
           

@@ -71,8 +71,8 @@ export const programs = [
   {
     id: "professional-coaching",
     title: "Professional Coaching",
-    subtitle: "30+ Years Experience",
-    description: "Led by coaches with over 30 years of elite-level experience, combining Toronto-based training methodologies with U.S. collegiate training systems. Emphasis on both offensive and defensive discipline.",
+    subtitle: "15+ Years Experience",
+    description: "Led by coaches with over 15 years of elite-level experience, combining Toronto-based training methodologies with U.S. collegiate training systems. Emphasis on both offensive and defensive discipline.",
     icon: "CoachingIcon",
     highlighted: false
   },
@@ -281,7 +281,7 @@ export const news = [
   },
   {
     id: "new-coach-announcement",
-    title: "Welcome Coach Richards: 30+ Years of Excellence",
+    title: "Welcome Coach Richards: 15+ Years of Excellence",
     category: "COACHING",
     author: "ADMIN",
     date: "September 2024",
