@@ -79,8 +79,8 @@ export const programs = [
   {
     id: "multiple-locations",
     title: "Multiple Locations",
-    subtitle: "Convenient options available",
-    description: "Choose from convenient school locations: BCR School, Amiskwaciy Academy, and Great Lyn Academy in Ontario. Each location offers full academic and athletic programs with facilities.",
+    subtitle: "Convenient options available - Quebec, Ontario and Alberta",
+    description: "Choose from convenient school locations: BCR School, Amiskwaciy Academy, and Great Lyn Academy across Quebec, Ontario and Alberta. Each location offers full academic and athletic programs with facilities.",
     icon: "CommunityIcon",
     highlighted: false
   }
