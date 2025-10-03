@@ -237,7 +237,8 @@ export const contact = {
   general: {
     email: "infocadaexceed@yahoo.com",
     adminEmail: "infoexceedprep@gmail.com",
-    phone: "780-938-8935"
+    phone: "780-938-8935",
+    additionalPhones: ["437-286-1388", "514-592-8837"]
   },
   social: {
     instagram: "@excee_d8"

@@ -72,7 +72,11 @@ const ContactInfo = () => {
                 </svg>
               </div>
               <h4 className="text-white font-bold mb-2">General Inquiries</h4>
-              <p className="text-gray-300 text-sm">780-938-8935</p>
+              <div className="space-y-1">
+                <p className="text-gray-300 text-sm">780-938-8935</p>
+                <p className="text-gray-300 text-sm">437-286-1388</p>
+                <p className="text-gray-300 text-sm">514-592-8837</p>
+              </div>
             </div>
 
             <div>

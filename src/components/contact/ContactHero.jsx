@@ -49,7 +49,11 @@ const ContactHero = () => {
             <div className="space-y-6">
               <div>
                 <h3 className="text-white font-bold text-lg mb-2">Phone:</h3>
-                <p className="text-gray-300">780-938-8935</p>
+                <div className="space-y-1">
+                  <p className="text-gray-300">780-938-8935</p>
+                  <p className="text-gray-300">437-286-1388</p>
+                  <p className="text-gray-300">514-592-8837</p>
+                </div>
               </div>
 
               <div>
