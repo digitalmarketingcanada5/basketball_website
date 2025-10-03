@@ -86,7 +86,7 @@ const ContactInfo = () => {
                 </svg>
               </div>
               <h4 className="text-white font-bold mb-2">Email Support</h4>
-              <p className="text-gray-300 text-sm">infocadaexceed@yahoo.com</p>
+              <p className="text-gray-300 text-sm">info.exceedacademy@gmail.com</p>
             </div>
 
             <div>

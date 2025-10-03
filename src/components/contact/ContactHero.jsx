@@ -21,7 +21,7 @@ const ContactHero = () => {
     e.preventDefault();
     
     // Create mailto link with form data
-    const mailtoLink = `mailto:infocadaexceed@yahoo.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
+    const mailtoLink = `mailto:info.exceedacademy@gmail.com?subject=${encodeURIComponent(formData.subject)}&body=${encodeURIComponent(
       `Name: ${formData.fullName}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
     )}`;
     
@@ -59,10 +59,10 @@ const ContactHero = () => {
               <div>
                 <h3 className="text-white font-bold text-lg mb-2">Email:</h3>
                 <a 
-                  href="mailto:infocadaexceed@yahoo.com"
+                  href="mailto:info.exceedacademy@gmail.com"
                   className="text-red-400 hover:text-red-300 transition-colors"
                 >
-                  infocadaexceed@yahoo.com
+                  info.exceedacademy@gmail.com
                 </a>
               </div>
 
