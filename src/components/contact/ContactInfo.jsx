@@ -4,65 +4,7 @@ const ContactInfo = () => {
   return (
     <section className="py-24 px-4 sm:px-8 bg-gray-900">
       <div className="container mx-auto max-w-7xl">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Visit Our Locations</h2>
-          <div className="w-16 h-1 bg-red-600 mx-auto"></div>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* BCR School */}
-          <div className="bg-black p-8 rounded-lg text-center hover:bg-gray-800 transition-colors duration-300">
-            <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-white mb-4">BCR School</h3>
-            <div className="space-y-2 text-gray-300">
-              <p>6227 119 Ave</p>
-              <p>Edmonton, AB</p>
-              <p className="text-red-400 font-semibold">Grades 8-12</p>
-              <p className="text-sm">Full Academic Program</p>
-            </div>
-          </div>
-
-          {/* Amiskwaciy Academy */}
-          <div className="bg-black p-8 rounded-lg text-center hover:bg-gray-800 transition-colors duration-300">
-            <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-white mb-4">Amiskwaciy Academy</h3>
-            <div className="space-y-2 text-gray-300">
-              <p>101 Airport Rd</p>
-              <p>Edmonton, AB</p>
-              <p className="text-red-400 font-semibold">Grades 8-12</p>
-              <p className="text-sm">Full Academic Program</p>
-            </div>
-          </div>
-
-          {/* Great Lyn Academy */}
-          <div className="bg-black p-8 rounded-lg text-center hover:bg-gray-800 transition-colors duration-300">
-            <div className="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
-              <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </div>
-            <h3 className="text-xl font-bold text-white mb-4">Great Lyn Academy</h3>
-            <div className="space-y-2 text-gray-300">
-              <p>Ontario Location</p>
-              <p>Ontario, Canada</p>
-              <p className="text-red-400 font-semibold">Grades 8-12</p>
-              <p className="text-sm">Full Academic Program</p>
-            </div>
-          </div>
-        </div>
-
-        {/* Additional Contact Methods */}
+        {/* Contact Methods */}
         <div className="mt-16 bg-black p-8 rounded-lg">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
