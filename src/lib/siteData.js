@@ -253,8 +253,9 @@ export const contact = {
 
 export const ctaSection = {
   title: "READY TO EXCEED? START YOUR JOURNEY!",
-  subtitle: "Applications now open - Limited spaces available",
-  buttonText: "APPLY NOW"
+  subtitle: "Learn more about our comprehensive academic and basketball program",
+  buttonText: "DOWNLOAD BROCHURE",
+  brochurePath: "/Exceed_prep.pdf"
 };
 
 export const news = [
