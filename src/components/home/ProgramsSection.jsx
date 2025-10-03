@@ -53,7 +53,7 @@ const ProgramsSection = () => {
             {/* Program Highlights */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
               {[
-                { title: "Local Students", price: "From $9,500 - $12,500", note: "Payment plans available" },
+                { title: "Local Students with Accommodations", price: "From $9,500 - $12,500", note: "Payment plans available" },
                 { title: "International Program", price: "$17,500 comprehensive", note: "Includes accommodation" },
                 { title: "Junior Program", price: "Grades 6-10: $8,000", note: "Stay at home schools" },
                 { title: "Academic Scholarships", price: "Academic And Athletic Scholarship Bursary of $5000", note: "Available to those who qualify" },
