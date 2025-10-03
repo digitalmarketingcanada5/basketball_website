@@ -33,7 +33,7 @@ const StatsSection = () => {
                   {stat.value}
                 </p>
               </div>
-              <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest group-hover:text-gray-300 transition-colors duration-300 md:whitespace-nowrap">
+              <p className="text-xs sm:text-sm font-semibold text-gray-400 uppercase tracking-wider sm:tracking-widest group-hover:text-gray-300 transition-colors duration-300">
                 {stat.label}
               </p>
             </div>
