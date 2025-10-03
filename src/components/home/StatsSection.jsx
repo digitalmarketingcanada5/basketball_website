@@ -18,13 +18,13 @@ const StatsSection = () => {
   return (
     <section className="py-24 px-4 sm:px-8 bg-slate-900">
       <div className="container mx-auto max-w-6xl">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-8">
           {stats.map((stat, index) => (
             <div key={index} className="text-center group">
               <div className="mb-6 flex justify-center">
                 <div className="p-4 bg-red-600 rounded-full group-hover:bg-red-700 transition-colors duration-300">
-                  {React.cloneElement(iconComponents[stat.icon], { 
-                    className: "w-8 h-8 text-white" 
+                  {React.cloneElement(iconComponents[stat.icon], {
+                    className: "w-8 h-8 text-white"
                   })}
                 </div>
               </div>
@@ -33,7 +33,7 @@ const StatsSection = () => {
                   {stat.value}
                 </p>
               </div>
-              <p className="text-xs sm:text-sm font-semibold text-gray-400 uppercase tracking-wider sm:tracking-widest group-hover:text-gray-300 transition-colors duration-300">
+              <p className="text-sm font-semibold text-gray-400 uppercase tracking-widest group-hover:text-gray-300 transition-colors duration-300">
                 {stat.label}
               </p>
             </div>
