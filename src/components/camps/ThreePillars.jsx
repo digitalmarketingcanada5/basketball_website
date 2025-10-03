@@ -17,7 +17,7 @@ const ThreePillars = () => {
           </p>
         </div>
         <div>
-          <h3 className="text-2xl font-bold mb-4">Create Pathways to Success</h3>
+          <h3 className="text-2xl font-bold mb-4">Create Pathways with Life Skills to Succeed</h3>
           <p className="text-gray-400">
             By connecting student-athletes to Division I scholarships and our Academic And Athletic Scholarship Bursary of $5000 available to those who qualify.
           </p>
