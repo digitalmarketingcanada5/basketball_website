@@ -68,8 +68,9 @@ const ContactHero = () => {
 
               <div>
                 <h3 className="text-white font-bold text-lg mb-2">Coach Direct:</h3>
-                <div className="space-y-2 text-gray-300">
-                  <div>Coach Richards: <span className="text-white">+1 (416) 779‑8878</span></div>
+                <div className="text-gray-300">
+                  <div>Coach Richards</div>
+                  <div className="text-white">+1 (416) 779‑8878</div>
                 </div>
               </div>
 
