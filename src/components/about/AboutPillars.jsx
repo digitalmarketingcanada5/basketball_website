@@ -98,7 +98,7 @@ const AboutPillars = () => {
           <PillarCard 
             icon={<CommunityIcon />} 
             title="Multiple School Locations" 
-            description="Choose from four convenient locations: BCR School, Amiskwaciy Academy, and Saint-Joseph in Edmonton, plus Great Lyn Academy in Ontario. Each location offers full academic programs with specialized facilities, providing flexibility for families across the region." 
+            description="Choose from convenient locations: BCR School and Amiskwaciy Academy, plus Great Lyn Academy in Ontario. Each location offers full academic programs with specialized facilities, providing flexibility for families across the region." 
           />
           <PillarCard 
             icon={<CoachingIcon />} 

@@ -19,7 +19,7 @@ const AboutPartnership = () => {
           <div className="space-y-4">
             <div>
               <h4 className="font-bold text-lg text-white mb-2">Educational Partnerships</h4>
-              <p className="text-gray-300 text-sm">BCR School, Amiskwaciy Academy, Saint-Joseph, and Great Lyn Academy in Ontario provide comprehensive academic programs that support our 75% minimum academic average requirement.</p>
+              <p className="text-gray-300 text-sm">BCR School, Amiskwaciy Academy, and Great Lyn Academy in Ontario provide comprehensive academic programs that support our 75% minimum academic average requirement.</p>
             </div>
             
             <div>

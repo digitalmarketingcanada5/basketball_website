@@ -113,7 +113,7 @@ const TrainingCTASection = () => {
               </p>
               <p className="text-gray-400">
                 <strong className="text-white">Locations:</strong> 
-                BCR School, Amiskwaciy Academy, Saint-Joseph - Edmonton, AB | Great Lyn Academy - Ontario
+                BCR School, Amiskwaciy Academy, Great Lyn Academy - Ontario
               </p>
             </div>
           </div>
