@@ -108,8 +108,8 @@ const ContactInfo = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
                 </svg>
               </div>
-              <h4 className="text-white font-bold mb-2">Coach Richardson</h4>
-              <p className="text-gray-300 text-sm">437-286-1388</p>
+              <h4 className="text-white font-bold mb-2">Coach Richards</h4>
+              <p className="text-gray-300 text-sm">+1 (416) 779‑8878</p>
             </div>
           </div>
         </div>

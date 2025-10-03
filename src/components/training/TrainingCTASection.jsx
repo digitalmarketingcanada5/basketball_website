@@ -75,9 +75,9 @@ const TrainingCTASection = () => {
             <div className="grid grid-cols-1 gap-8 mb-12 max-w-md mx-auto">
               <div className="bg-gray-900 p-6 rounded-lg text-center">
                 <h4 className="text-xl font-bold text-white mb-3">Training & Academic Inquiries</h4>
-                <p className="text-gray-300 mb-2">Coach Richardson</p>
-                <a href="tel:437-286-1388" className="text-red-400 font-bold text-lg hover:text-red-300 transition-colors">
-                  437-286-1388
+                <p className="text-gray-300 mb-2">Coach Richards</p>
+                <a href="tel:+14167798878" className="text-red-400 font-bold text-lg hover:text-red-300 transition-colors">
+                  +1 (416) 779‑8878
                 </a>
               </div>
             </div>
@@ -125,7 +125,7 @@ const TrainingCTASection = () => {
             "Excellence is not achieved overnight. It's built through dedication, discipline, and the pursuit of academic and athletic greatness."
           </p>
           <p className="text-gray-400 font-medium">
-            — Coach Richardson, EXCEED Founder & Head Coach
+            — Coach Richards, EXCEED Head Coach
           </p>
         </div>
 

@@ -288,7 +288,7 @@ export const news = [
   },
   {
     id: "new-coach-announcement",
-    title: "Welcome Coach Richardson: 30+ Years of Excellence",
+    title: "Welcome Coach Richards: 30+ Years of Excellence",
     category: "COACHING",
     author: "ADMIN",
     date: "September 2024",
