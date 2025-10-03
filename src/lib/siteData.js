@@ -47,8 +47,8 @@ export const programs = [
   {
     id: "elite-competition",
     title: "Elite Competition",
-    subtitle: "CESPORTS, OBSA, NPH Circuits",
-    description: "Compete at the highest levels through recognized leagues including CESPORTS (United States), OBSA Prep Leagues, North Pole Hoops (NPH), and National Senior Circuit (NSC). Gain exposure on national and international stages.",
+    subtitle: "CESPORTS, Phoenix, NPH, Coalition League Circuits",
+    description: "Compete at the highest levels through recognized leagues including CESPORTS (United States), Phoenix, North Pole Hoops (NPH), Coalition League, and National Senior Circuit (NSC). Gain exposure on national and international stages.",
     icon: "BasketballIcon",
     highlighted: true
   },

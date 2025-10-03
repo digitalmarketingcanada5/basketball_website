@@ -24,7 +24,7 @@ const AboutPartnership = () => {
             
             <div>
               <h4 className="font-bold text-lg text-white mb-2">Competition Circuits</h4>
-              <p className="text-gray-300 text-sm">Direct partnerships with CESPORTS (United States), OBSA Prep Leagues, and North Pole Hoops (NPH) ensure our athletes compete at the highest levels.</p>
+              <p className="text-gray-300 text-sm">Direct partnerships with CESPORTS (United States), Phoenix, and North Pole Hoops (NPH) ensure our athletes compete at the highest levels.</p>
             </div>
             
             <div>

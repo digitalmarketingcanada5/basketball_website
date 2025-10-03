@@ -15,7 +15,7 @@ export const metadata = {
   metadataBase: new URL('https://exceedcad.vercel.app'),
   title: "EXCEED - Academic Basketball Prep Program",
   description: "Excellence in Academics & Athletics. An exceptional opportunity for young individuals from diverse backgrounds to excel both academically and athletically. Grades 6-12/Post Secondary program with Division I scholarships, Nike funding, and elite competition circuits.",
-  keywords: "basketball prep, academic excellence, Division I scholarships, elite basketball training, grades 6-12/post secondary, academic scholarships, CESPORTS, OBSA, special needs support, Edmonton basketball",
+  keywords: "basketball prep, academic excellence, Division I scholarships, elite basketball training, grades 6-12/post secondary, academic scholarships, CESPORTS, Phoenix, special needs support, Edmonton basketball",
   authors: [{ name: "EXCEED" }],
   creator: "EXCEED Academic Basketball Prep Program",
   publisher: "EXCEED",

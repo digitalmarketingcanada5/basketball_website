@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
             </li>
             <li className="flex items-start">
               <CheckIcon />
-              <strong>Elite Competition Preparation</strong> – Players receive structured coaching for CESPORTS, OBSA, and NPH circuits.
+              <strong>Elite Competition Preparation</strong> – Players receive structured coaching for CESPORTS, Phoenix, and NPH circuits.
             </li>
             <li className="flex items-start">
               <CheckIcon />

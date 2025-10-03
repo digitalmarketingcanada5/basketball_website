@@ -13,7 +13,7 @@ const ThreePillars = () => {
         <div>
           <h3 className="text-2xl font-bold mb-4">Give Athletes Elite Opportunity</h3>
           <p className="text-gray-400">
-            By ensuring every player has access to CESPORTS, OBSA, and NPH competition circuits.
+            By ensuring every player has access to CESPORTS, Phoenix, and NPH competition circuits.
           </p>
         </div>
         <div>

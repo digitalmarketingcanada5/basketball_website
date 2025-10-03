@@ -87,7 +87,7 @@ const AboutPillars = () => {
           <PillarCard 
             icon={<BasketballIcon />} 
             title="Elite Basketball Training" 
-            description="Our comprehensive basketball program combines over 30 years of coaching expertise with modern training methodologies. From fundamental skills to elite competition preparation, we develop complete players ready for CESPORTS, OBSA, and NPH circuits." 
+            description="Our comprehensive basketball program combines over 30 years of coaching expertise with modern training methodologies. From fundamental skills to elite competition preparation, we develop complete players ready for CESPORTS, Phoenix, and NPH circuits." 
             highlighted 
           />
           <PillarCard 
