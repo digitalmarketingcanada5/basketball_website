@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/layout/Header';
 import Footer from '../components/layout/Footer';
 import HeroSection from '../components/home/HeroSection';
+import AnnouncementsSection from '../components/home/AnnouncementsSection';
 import WhyChooseUs from '../components/home/WhyChooseUs';
 import StorySection from '../components/home/StorySection';
 import StatsSection from '../components/home/StatsSection';
@@ -20,6 +21,9 @@ export default function Home() {
       <main>
         {/* Hero Section */}
         <HeroSection />
+
+        {/* Announcements Section - Fliers */}
+        <AnnouncementsSection />
 
         {/* Why Choose Us Section */}
         <WhyChooseUs />

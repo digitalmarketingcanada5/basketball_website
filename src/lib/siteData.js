@@ -14,11 +14,11 @@ export const navigation = {
     // "BASKETBALL",
     "CAMPS",
     "TRAINING",
-    // "ACADEMICS", 
+    // "ACADEMICS",
     // "SCHOLARSHIPS",
     // "ADMISSIONS",
     "ABOUT",
-    // "GALLERY",
+    "GALLERY",
     "CONTACT"
   ]
 };

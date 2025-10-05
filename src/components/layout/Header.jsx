@@ -20,7 +20,7 @@ const Header = () => {
       case 'ABOUT': 
         return '/about';
       case 'GALLERY':
-        return '/'; // Redirect to home until pages are built
+        return '/gallery';
       case 'CONTACT':
         return '/contact';
       default:
