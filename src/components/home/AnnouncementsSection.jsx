@@ -12,17 +12,17 @@ const AnnouncementsSection = () => {
   const fliers = [
     {
       id: 1,
-      title: "Spring Training Camp 2025",
+      title: "Training Program 2025-26 Season",
       image: "/images/flier1.jpeg",
       link: "#",
-      description: "Join our intensive spring training program"
+      description: "Join our intensive training program"
     },
     {
       id: 2,
-      title: "Summer Basketball League",
+      title: "Training Program 2025-26 Season",
       image: "/images/flier2.jpeg",
       link: "#",
-      description: "Register for our competitive summer league"
+      description: "Join our intensive training program"
     }
   ];
 
@@ -115,12 +115,16 @@ const AnnouncementsSection = () => {
 
             {/* Title and Description - Below the image */}
             <div className="text-center space-y-4">
-              <h3 className="text-3xl font-bold text-white">
-                {fliers[currentIndex].title}
-              </h3>
-              <p className="text-gray-400 text-lg max-w-2xl mx-auto">
-                {fliers[currentIndex].description}
-              </p>
+              {fliers[currentIndex].title && (
+                <h3 className="text-3xl font-bold text-white">
+                  {fliers[currentIndex].title}
+                </h3>
+              )}
+              {fliers[currentIndex].description && (
+                <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+                  {fliers[currentIndex].description}
+                </p>
+              )}
               <button
                 onClick={() => openLightbox(fliers[currentIndex])}
                 className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-md transition-colors text-lg font-semibold"
