@@ -69,55 +69,58 @@ const AnnouncementsSection = () => {
         </div>
 
         {/* Flier Carousel */}
-        <div className="max-w-4xl mx-auto">
-          <div className="relative group">
-            {/* Main Flier Display */}
-            <div className="relative aspect-[4/5] md:aspect-[16/9] overflow-hidden rounded-lg shadow-2xl">
-              <Image
-                src={fliers[currentIndex].image}
-                alt={fliers[currentIndex].title}
-                fill
-                className="object-contain bg-black"
-                priority
-              />
-
-              {/* Overlay with Title */}
-              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-6">
-                <h3 className="text-2xl font-bold text-white mb-2">
-                  {fliers[currentIndex].title}
-                </h3>
-                <p className="text-gray-300 mb-4">
-                  {fliers[currentIndex].description}
-                </p>
-                <button
-                  onClick={() => openLightbox(fliers[currentIndex])}
-                  className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-6 py-2 rounded-md transition-colors"
-                >
-                  View Details
-                  <ZoomIn className="w-4 h-4" />
-                </button>
+        <div className="max-w-5xl mx-auto">
+          <div className="space-y-6">
+            {/* Main Flier Display - No overlay on image */}
+            <div className="relative group">
+              <div className="relative aspect-[4/5] md:aspect-[16/10] overflow-hidden rounded-lg shadow-2xl bg-gray-900">
+                <Image
+                  src={fliers[currentIndex].image}
+                  alt={fliers[currentIndex].title}
+                  fill
+                  className="object-contain"
+                  priority
+                />
               </div>
+
+              {/* Navigation Arrows - Moved inside the image container */}
+              {fliers.length > 1 && (
+                <>
+                  <button
+                    onClick={prevSlide}
+                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all opacity-0 group-hover:opacity-100"
+                    aria-label="Previous announcement"
+                  >
+                    <ChevronLeft className="w-6 h-6" />
+                  </button>
+                  <button
+                    onClick={nextSlide}
+                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all opacity-0 group-hover:opacity-100"
+                    aria-label="Next announcement"
+                  >
+                    <ChevronRight className="w-6 h-6" />
+                  </button>
+                </>
+              )}
             </div>
 
-            {/* Navigation Arrows */}
-            {fliers.length > 1 && (
-              <>
-                <button
-                  onClick={prevSlide}
-                  className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all opacity-0 group-hover:opacity-100"
-                  aria-label="Previous announcement"
-                >
-                  <ChevronLeft className="w-6 h-6" />
-                </button>
-                <button
-                  onClick={nextSlide}
-                  className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all opacity-0 group-hover:opacity-100"
-                  aria-label="Next announcement"
-                >
-                  <ChevronRight className="w-6 h-6" />
-                </button>
-              </>
-            )}
+            {/* Title and Description - Below the image */}
+            <div className="text-center space-y-4">
+              <h3 className="text-3xl font-bold text-white">
+                {fliers[currentIndex].title}
+              </h3>
+              <p className="text-gray-400 text-lg max-w-2xl mx-auto">
+                {fliers[currentIndex].description}
+              </p>
+              <button
+                onClick={() => openLightbox(fliers[currentIndex])}
+                className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white px-8 py-3 rounded-md transition-colors text-lg font-semibold"
+              >
+                View Full Image
+                <ZoomIn className="w-5 h-5" />
+              </button>
+            </div>
+
           </div>
 
           {/* Dots Indicator */}
