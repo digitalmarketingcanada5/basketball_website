@@ -49,33 +49,33 @@ const HeroSection = () => {
       <div className="container mx-auto h-full flex items-center justify-center relative px-4">
         
         {/* "Exceed Your Limits" Text - Behind players initially, comes forward on scroll */}
-        <div 
-          className="absolute inset-0 flex justify-center items-center transition-all duration-300 ease-out"
+        <div
+          className="absolute inset-0 flex justify-center items-start pt-20 sm:pt-24 md:items-center md:pt-0 transition-all duration-300 ease-out"
           style={{
             zIndex: scrollProgress > 0.3 ? 25 : 5,
             opacity: 0.3 + (scrollProgress * 0.7),
             transform: `scale(${0.8 + (scrollProgress * 0.3)}) translateY(${scrollProgress * -30}px)`
           }}
         >
-          <img 
-            src="/images/exceed_your_limits.png" 
-            alt="Exceed Your Limits" 
+          <img
+            src="/images/exceed_your_limits.png"
+            alt="Exceed Your Limits"
             className="w-full max-w-5xl h-auto object-contain"
           />
         </div>
 
         {/* Hero Athletes - Middle layer */}
-        <div 
-          className="absolute inset-0 flex justify-center items-end z-20 transition-all duration-300 ease-out"
+        <div
+          className="absolute inset-0 flex justify-center items-end pb-20 sm:pb-10 md:pb-0 z-20 transition-all duration-300 ease-out"
           style={{
             transform: `translateY(${scrollProgress * 20}px)`,
             opacity: 1 - (scrollProgress * 0.3)
           }}
         >
-          <img 
-            src="/images/hero-athletes2.png" 
-            alt="EXCEED Student Athletes" 
-            className="w-full max-w-6xl h-[90%] object-contain object-bottom"
+          <img
+            src="/images/hero-athletes2.png"
+            alt="EXCEED Student Athletes"
+            className="w-full max-w-6xl h-[80%] sm:h-[85%] md:h-[90%] object-contain object-bottom"
           />
         </div>
 
