@@ -10,33 +10,27 @@ export default function Gallery() {
   const [selectedMedia, setSelectedMedia] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-  // Sample gallery data - replace with your actual media
+  // Gallery data with actual media files
   const mediaItems = [
     // Images
-    { id: 1, type: 'image', src: '/images/gallery/training1.jpg', title: 'Training Session', category: 'training' },
-    { id: 2, type: 'image', src: '/images/gallery/game1.jpg', title: 'Championship Game', category: 'games' },
-    { id: 3, type: 'image', src: '/images/gallery/facility1.jpg', title: 'Training Facility', category: 'facilities' },
-    { id: 4, type: 'image', src: '/images/gallery/team1.jpg', title: 'Team Photo', category: 'events' },
-    { id: 5, type: 'image', src: '/images/gallery/training2.jpg', title: 'Skills Development', category: 'training' },
-    { id: 6, type: 'image', src: '/images/gallery/game2.jpg', title: 'Tournament Victory', category: 'games' },
+    { id: 1, type: 'image', src: '/images/gallery/Training.jpeg', title: 'Training Session', category: 'training' },
+    { id: 2, type: 'image', src: '/images/gallery/photo1.jpeg', title: 'Team Photo', category: 'events' },
+    { id: 3, type: 'image', src: '/images/gallery/Events.png', title: 'Special Events', category: 'events' },
 
-    // Videos - using YouTube/Vimeo embed links or local video files
+    // Video - local video file
     {
-      id: 7,
+      id: 4,
       type: 'video',
-      src: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Replace with actual video
-      thumbnail: '/images/gallery/video-thumb1.jpg',
-      title: 'Season Highlights',
-      category: 'highlights'
-    },
-    {
-      id: 8,
-      type: 'video',
-      src: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Replace with actual video
-      thumbnail: '/images/gallery/video-thumb2.jpg',
-      title: 'Training Documentary',
+      src: '/images/gallery/video1.mp4',
+      thumbnail: '/images/gallery/Training.jpeg', // Using Training.jpeg as thumbnail
+      title: 'Program Highlights',
       category: 'training'
     },
+
+    // You can add more items here as you get more content
+    // Example placeholders for future content:
+    // { id: 5, type: 'image', src: '/images/gallery/game1.jpg', title: 'Championship Game', category: 'games' },
+    // { id: 6, type: 'image', src: '/images/gallery/facility1.jpg', title: 'Training Facility', category: 'facilities' },
   ];
 
   // Filter media based on active tab
