@@ -83,23 +83,28 @@ const AnnouncementsSection = () => {
                 />
               </div>
 
-              {/* Navigation Arrows - Moved inside the image container */}
+              {/* Navigation Arrows - Always visible for clarity */}
               {fliers.length > 1 && (
                 <>
                   <button
                     onClick={prevSlide}
-                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all opacity-0 group-hover:opacity-100"
+                    className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-red-600 text-white p-3 rounded-full transition-all shadow-lg"
                     aria-label="Previous announcement"
                   >
                     <ChevronLeft className="w-6 h-6" />
                   </button>
                   <button
                     onClick={nextSlide}
-                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-3 rounded-full transition-all opacity-0 group-hover:opacity-100"
+                    className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/60 hover:bg-red-600 text-white p-3 rounded-full transition-all shadow-lg"
                     aria-label="Next announcement"
                   >
                     <ChevronRight className="w-6 h-6" />
                   </button>
+
+                  {/* Navigation hint */}
+                  <div className="absolute bottom-4 left-1/2 -translate-x-1/2 bg-black/60 text-white px-4 py-2 rounded-full text-sm">
+                    {currentIndex + 1} / {fliers.length}
+                  </div>
                 </>
               )}
             </div>
