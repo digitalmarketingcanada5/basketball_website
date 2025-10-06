@@ -293,23 +293,18 @@ export const news = [
 
 export const socialMediaLinks = [
   {
-    platform: "Facebook",
-    url: "/",
-    icon: "FacebookIcon"
+    platform: "TikTok",
+    url: "https://www.tiktok.com/@exceed.basketball?_t=ZM-90KQgfVzTbv&_r=1",
+    icon: "TikTokIcon"
   },
   {
-    platform: "Instagram", 
-    url: "/",
+    platform: "Instagram",
+    url: "https://instagram.com/excee_d8",
     icon: "InstagramIcon"
   },
   {
-    platform: "X (Twitter)",
-    url: "/",
-    icon: "XIcon"
-  },
-  {
     platform: "YouTube",
-    url: "/", 
+    url: "https://www.youtube.com/@excee_d8",
     icon: "YouTubeIcon"
-  },
+  }
 ];

@@ -1,7 +1,8 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { FacebookIcon, InstagramIcon, XIcon, YouTubeIcon, TikTokIcon } from '../icons';
+import Image from 'next/image';
+import { InstagramIcon } from '../icons';
 import { heroSection, socialMediaLinks } from '../../lib/siteData';
 
 const HeroSection = () => {
@@ -23,21 +24,39 @@ const HeroSection = () => {
       <div className="fixed left-8 top-1/2 transform -translate-y-1/2 z-40 hidden lg:flex flex-col">
         <ul className="space-y-4">
           {socialMediaLinks.map((social, index) => {
-            const IconComponent = {
-              FacebookIcon,
-              InstagramIcon, 
-              XIcon,
-              YouTubeIcon,
-              TikTokIcon
-            }[social.icon];
-            
             return (
               <li key={index}>
-                <a 
-                  href="/contact" 
+                <a
+                  href={social.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="p-2 inline-block text-white bg-gray-900 rounded-full hover:bg-red-600 transition-colors"
                 >
-                  <IconComponent />
+                  {social.icon === 'TikTokIcon' ? (
+                    <div className="w-5 h-5 relative">
+                      <Image
+                        src="/images/tik-tok.png"
+                        alt="TikTok"
+                        width={20}
+                        height={20}
+                        className="object-contain"
+                        style={{ filter: 'invert(1) brightness(2)' }}
+                      />
+                    </div>
+                  ) : social.icon === 'InstagramIcon' ? (
+                    <InstagramIcon />
+                  ) : social.icon === 'YouTubeIcon' ? (
+                    <div className="w-5 h-5 relative">
+                      <Image
+                        src="/images/youtube.png"
+                        alt="YouTube"
+                        width={20}
+                        height={20}
+                        className="object-contain"
+                        style={{ filter: 'invert(1) brightness(2)' }}
+                      />
+                    </div>
+                  ) : null}
                 </a>
               </li>
             );
