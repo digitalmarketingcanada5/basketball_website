@@ -1,5 +1,6 @@
 import React from 'react';
-import { Logo } from '../icons';
+import Image from 'next/image';
+import { Logo, InstagramIcon } from '../icons';
 import { siteInfo, navigation, contact, schools } from '../../lib/siteData';
 
 const Footer = () => {
@@ -67,7 +68,52 @@ const Footer = () => {
                 <div className="text-gray-400 text-sm space-y-1">
                   <div>Email: <span className="text-red-600">{contact.general.email}</span></div>
                   <div>Phone: <span className="text-red-600">{contact.general.phone}</span></div>
-                  <div>Instagram: <span className="text-red-600">{contact.social.instagram}</span></div>
+                </div>
+                <div className="mt-4">
+                  <p className="text-gray-400 text-sm mb-2">Follow Us:</p>
+                  <div className="flex space-x-3">
+                    <a
+                      href="https://www.tiktok.com/@exceed.basketball?_t=ZM-90KQgfVzTbv&_r=1"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="relative w-5 h-5 opacity-60 hover:opacity-100 transition-opacity"
+                      aria-label="Follow us on TikTok"
+                    >
+                      <Image
+                        src="/images/tik-tok.png"
+                        alt="TikTok"
+                        width={20}
+                        height={20}
+                        className="object-contain"
+                        style={{ filter: 'invert(1) brightness(2)' }}
+                      />
+                    </a>
+                    <a
+                      href="https://instagram.com/excee_d8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-400 hover:text-white transition-colors"
+                      aria-label="Follow us on Instagram"
+                    >
+                      <InstagramIcon />
+                    </a>
+                    <a
+                      href="https://www.youtube.com/@excee_d8"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="relative w-5 h-5 opacity-60 hover:opacity-100 transition-opacity"
+                      aria-label="Follow us on YouTube"
+                    >
+                      <Image
+                        src="/images/youtube.png"
+                        alt="YouTube"
+                        width={20}
+                        height={20}
+                        className="object-contain"
+                        style={{ filter: 'invert(1) brightness(2)' }}
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
