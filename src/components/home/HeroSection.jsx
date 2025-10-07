@@ -99,7 +99,7 @@ const HeroSection = () => {
         </div>
 
         {/* Excellence in Academics & Athletics - Top center */}
-        <div 
+        <div
           className="absolute top-16 lg:top-34 left-1/2 z-30 text-center transition-all duration-500 ease-out"
           style={{
             opacity: 0.7 + (scrollProgress * 0.3),
@@ -108,6 +108,9 @@ const HeroSection = () => {
         >
           <p className="text-red-600 font-bold text-lg md:text-xl tracking-[0.3em] uppercase">
             {heroSection.subtitle}
+          </p>
+          <p className="text-gray-200 text-xs md:text-sm mt-2 tracking-wider">
+            Quebec • Ontario • Alberta • Edmonton
           </p>
         </div>
         
