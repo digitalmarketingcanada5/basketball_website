@@ -4,7 +4,7 @@ import React from 'react';
 import { ctaSection } from '../../lib/siteData';
 
 const CTASection = () => {
-  const handleDownload = () => {
+  const handleBrochureDownload = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
     link.href = ctaSection.brochurePath;
@@ -14,7 +14,7 @@ const CTASection = () => {
 
   return (
     <section className="bg-red-600 py-12 px-4 sm:px-8">
-      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-center md:text-left gap-6">
         <div className="mb-6 md:mb-0">
           <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">
             {ctaSection.title}
@@ -23,25 +23,52 @@ const CTASection = () => {
             {ctaSection.subtitle}
           </p>
         </div>
-        <button
-          onClick={handleDownload}
-          className="bg-white text-red-600 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-colors flex items-center gap-2"
-        >
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
+
+        {/* Button Group */}
+        <div className="flex flex-col sm:flex-row gap-4">
+          {/* Download Brochure Button */}
+          <button
+            onClick={handleBrochureDownload}
+            className="bg-white text-red-600 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-colors flex items-center gap-2 justify-center"
           >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
-            />
-          </svg>
-          {ctaSection.buttonText}
-        </button>
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
+            {ctaSection.buttonText}
+          </button>
+
+          {/* Download Contract Button */}
+          <a
+            href="/EXCEED_CAD_ACADEMIC_CONTRACT.pdf"
+            download
+            className="bg-white text-red-600 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition-colors flex items-center gap-2 justify-center border-2 border-white"
+          >
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
+            DOWNLOAD CONTRACT
+          </a>
+        </div>
       </div>
     </section>
   );

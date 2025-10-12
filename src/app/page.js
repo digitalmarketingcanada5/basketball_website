@@ -25,6 +25,9 @@ export default function Home() {
         {/* Announcements Section - Fliers */}
         <AnnouncementsSection />
 
+        {/* CTA Section */}
+        <CTASection />
+
         {/* Why Choose Us Section */}
         <WhyChooseUs />
 
@@ -39,9 +42,6 @@ export default function Home() {
 
         {/* Our Coaches Section */}
         <CoachesSection />
-
-        {/* CTA Section */}
-        <CTASection />
 
         {/* Recent News Section */}
         {/* <NewsSection /> */}

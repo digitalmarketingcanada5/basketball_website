@@ -13,7 +13,7 @@ const AnnouncementsSection = () => {
     {
       id: 1,
       title: "Training Program 2025-26 Season",
-      image: "/images/flier1.jpeg",
+      image: "/images/flier1.png",
       link: "#",
       description: "Join our intensive training program"
     },
