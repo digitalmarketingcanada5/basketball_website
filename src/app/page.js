@@ -9,6 +9,7 @@ import StatsSection from '../components/home/StatsSection';
 import ProgramsSection from '../components/home/ProgramsSection';
 import CoachesSection from '../components/home/CoachesSection';
 import CTASection from '../components/home/CTASection';
+import PricingSection from '../components/home/PricingSection';
 // import NewsSection from '../components/home/NewsSection';
 
 export default function Home() {
@@ -27,6 +28,9 @@ export default function Home() {
 
         {/* CTA Section */}
         <CTASection />
+
+        {/* Pricing Section */}
+        <PricingSection />
 
         {/* Why Choose Us Section */}
         <WhyChooseUs />
