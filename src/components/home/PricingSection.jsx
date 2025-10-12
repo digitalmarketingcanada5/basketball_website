@@ -59,8 +59,8 @@ const PricingSection = () => {
     title: 'For Juniors Grades 7–10',
     subtitle: 'Local, Without Accommodation',
     totalFee: '$7,000',
-    scholarship: '$2,500',
-    netPayable: '$4,500',
+    scholarship: '$3,500',
+    netPayable: '$3,500',
     details: [
       'Includes travel/transportation',
       'Initial deposit: $1,500, due on or before October 18, 2025',
@@ -83,7 +83,7 @@ const PricingSection = () => {
             Prices
           </h2>
           <p className="text-2xl text-white font-semibold">
-            For local & International Students
+            For Local Students
           </p>
         </div>
 
