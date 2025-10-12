@@ -12,6 +12,7 @@ export const navigation = {
   main: [
     "HOME",
     // "BASKETBALL",
+    "REGISTER",
     "CAMPS",
     "TRAINING",
     // "ACADEMICS",

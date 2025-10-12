@@ -17,7 +17,9 @@ const Header = () => {
       case 'CAMPS':
         return '/camps';
       // case 'ACADEMICS':
-      case 'ABOUT': 
+      case 'REGISTER':
+        return '/register';
+      case 'ABOUT':
         return '/about';
       case 'GALLERY':
         return '/gallery';
