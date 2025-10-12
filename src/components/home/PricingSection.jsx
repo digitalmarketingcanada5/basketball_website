@@ -1,4 +1,5 @@
 import React from 'react';
+import { contact } from '../../lib/siteData';
 
 const PricingSection = () => {
   const pricingPlans = [
@@ -66,11 +67,7 @@ const PricingSection = () => {
       'Initial deposit: $1,500, due on or before October 18, 2025',
       'Balance: payable via a monthly payment plan'
     ],
-    note: 'Athletes/Students competing in this program (Grades 7–10) will not be permitted to leave their home schools.',
-    contact: {
-      email: 'infoexceedprep@gmail.com',
-      phone: '780-938-8935'
-    }
+    note: 'Athletes/Students competing in this program (Grades 7–10) will not be permitted to leave their home schools.'
   };
 
   return (
@@ -83,7 +80,7 @@ const PricingSection = () => {
             Prices
           </h2>
           <p className="text-2xl text-white font-semibold">
-            For Local Students
+            For Local and International Senior Students
           </p>
         </div>
 
@@ -139,7 +136,7 @@ const PricingSection = () => {
               Price
             </h3>
             <p className="text-xl text-white font-semibold">
-              For local and international students
+              For Local Students
             </p>
           </div>
 
@@ -182,7 +179,7 @@ const PricingSection = () => {
 
             {/* Right Column - Important Notes */}
             <div className="space-y-6">
-              <div className="bg-black rounded-lg p-6 border-l-4 border-red-600">
+              {/* <div className="bg-black rounded-lg p-6 border-l-4 border-red-600">
                 <div className="flex items-start space-x-3">
                   <svg className="w-6 h-6 text-red-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -191,29 +188,64 @@ const PricingSection = () => {
                     {juniorPricing.note}
                   </p>
                 </div>
-              </div>
+              </div> */}
 
               <div className="bg-black rounded-lg p-6">
                 <h5 className="text-lg font-bold text-red-600 mb-4">Contact:</h5>
                 <div className="space-y-3">
+                  {/* Email */}
                   <a
-                    href={`mailto:${juniorPricing.contact.email}`}
+                    href={`mailto:${contact.general.email}`}
                     className="flex items-center space-x-3 text-gray-300 hover:text-red-400 transition-colors"
                   >
                     <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                     </svg>
-                    <span>{juniorPricing.contact.email}</span>
+                    <span>{contact.general.email}</span>
                   </a>
-                  <a
-                    href={`tel:${juniorPricing.contact.phone.replace(/[^0-9]/g, '')}`}
-                    className="flex items-center space-x-3 text-gray-300 hover:text-red-400 transition-colors"
-                  >
-                    <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                    </svg>
-                    <span>{juniorPricing.contact.phone}</span>
-                  </a>
+
+                  {/* Phone Numbers */}
+                  <div className="space-y-2">
+                    <p className="text-white font-semibold text-sm">Phone:</p>
+                    <a
+                      href={`tel:${contact.general.phone.replace(/[^0-9]/g, '')}`}
+                      className="flex items-center space-x-3 text-gray-300 hover:text-red-400 transition-colors"
+                    >
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                      </svg>
+                      <span>{contact.general.phone}</span>
+                    </a>
+                    {contact.general.additionalPhones.map((phone, index) => (
+                      <a
+                        key={index}
+                        href={`tel:${phone.replace(/[^0-9]/g, '')}`}
+                        className="flex items-center space-x-3 text-gray-300 hover:text-red-400 transition-colors"
+                      >
+                        <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                        </svg>
+                        <span>{phone}</span>
+                      </a>
+                    ))}
+                  </div>
+
+                  {/* Coach Direct */}
+                  <div className="pt-3 border-t border-gray-700">
+                    <p className="text-white font-semibold text-sm mb-2">Coach Direct:</p>
+                    <a
+                      href={`tel:${contact.primary[0].phone.replace(/[^0-9]/g, '')}`}
+                      className="flex items-center space-x-3 text-gray-300 hover:text-red-400 transition-colors"
+                    >
+                      <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                      </svg>
+                      <div>
+                        <p className="text-sm">{contact.primary[0].name}</p>
+                        <p className="text-red-400 font-semibold">{contact.primary[0].phone}</p>
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
