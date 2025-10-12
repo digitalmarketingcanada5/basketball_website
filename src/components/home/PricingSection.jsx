@@ -18,7 +18,7 @@ const PricingSection = () => {
           value: '8 monthly non-refundable payments of $900 (remaining balance)'
         }
       ],
-      highlighted: false
+      highlighted: true
     },
     {
       id: 'local-without-accommodation',
@@ -35,7 +35,7 @@ const PricingSection = () => {
           value: '8 monthly non-refundable payments of $750 (remaining balance)'
         }
       ],
-      highlighted: true
+      highlighted: false
     },
     {
       id: 'international',
@@ -53,6 +53,28 @@ const PricingSection = () => {
         }
       ],
       highlighted: false
+    },
+    {
+      id: 'low-income',
+      type: 'Low Income Families',
+      subtitle: 'Competing In The Program',
+      price: '$1,500',
+      features: [
+        {
+          label: 'Initial deposit',
+          value: '$2,500 for the season'
+        },
+        {
+          label: 'Requirements',
+          value: 'Must show proof of financial statements'
+        },
+        {
+          label: 'Note',
+          value: 'Does not include travel'
+        }
+      ],
+      highlighted: false,
+      special: true
     }
   ];
 
@@ -85,7 +107,7 @@ const PricingSection = () => {
         </div>
 
         {/* Main Pricing Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-20">
           {pricingPlans.map((plan) => (
             <div
               key={plan.id}
@@ -140,9 +162,9 @@ const PricingSection = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            {/* Left Column - Pricing Details */}
-            <div className="space-y-6">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {/* Regular Junior Pricing */}
+            <div className="lg:col-span-2 space-y-6">
               <div className="border-l-4 border-red-600 pl-6">
                 <h4 className="text-2xl font-bold text-red-600 mb-2">
                   {juniorPricing.title}
@@ -177,20 +199,51 @@ const PricingSection = () => {
               </div>
             </div>
 
-            {/* Right Column - Important Notes */}
-            <div className="space-y-6">
-              {/* <div className="bg-black rounded-lg p-6 border-l-4 border-red-600">
-                <div className="flex items-start space-x-3">
-                  <svg className="w-6 h-6 text-red-600 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  <p className="text-gray-300 leading-relaxed">
-                    {juniorPricing.note}
+            {/* Low Income Junior Card */}
+            <div className="bg-black rounded-lg p-6 border-2 border-red-600">
+              <div className="text-center mb-6">
+                <h4 className="text-xl font-bold text-red-600 mb-2">
+                  Low Income Families
+                </h4>
+                <p className="text-sm text-gray-300">
+                  Competing In The Program
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <div className="border-l-4 border-red-600 pl-4">
+                  <p className="text-white font-semibold mb-1">
+                    Initial deposit
+                  </p>
+                  <p className="text-gray-300 text-sm">
+                    $1,500 for the season
                   </p>
                 </div>
-              </div> */}
 
-              <div className="bg-black rounded-lg p-6">
+                <div className="border-l-4 border-red-600 pl-4">
+                  <p className="text-white font-semibold mb-1">
+                    Requirements
+                  </p>
+                  <p className="text-gray-300 text-sm">
+                    Must show proof of financial statements
+                  </p>
+                </div>
+
+                <div className="border-l-4 border-red-600 pl-4">
+                  <p className="text-white font-semibold mb-1">
+                    Note
+                  </p>
+                  <p className="text-gray-300 text-sm">
+                    Does not include travel
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Contact Section Below */}
+          <div className="mt-12">
+            <div className="bg-black rounded-lg p-6">
                 <h5 className="text-lg font-bold text-red-600 mb-4">Contact:</h5>
                 <div className="space-y-3">
                   {/* Email */}
@@ -249,7 +302,6 @@ const PricingSection = () => {
                 </div>
               </div>
             </div>
-          </div>
         </div>
 
         {/* Additional Info */}
