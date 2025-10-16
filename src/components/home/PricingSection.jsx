@@ -162,7 +162,7 @@ const PricingSection = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Regular Junior Pricing */}
             <div className="lg:col-span-2 space-y-6">
               <div className="border-l-4 border-red-600 pl-6">
@@ -199,6 +199,38 @@ const PricingSection = () => {
               </div>
             </div>
 
+            {/* Junior With Accommodations Card */}
+            <div className="bg-black rounded-lg p-6 border-2 border-red-600">
+              <div className="text-center mb-6">
+                <h4 className="text-xl font-bold text-red-600 mb-2">
+                  Junior With Accommodations
+                </h4>
+                <p className="text-sm text-gray-300">
+                  (Grades 7–10)
+                </p>
+              </div>
+
+              <div className="space-y-4">
+                <div className="border-l-4 border-red-600 pl-4">
+                  <p className="text-white font-semibold mb-1">
+                    Total Fee
+                  </p>
+                  <p className="text-red-400 text-2xl font-bold">
+                    $12,500
+                  </p>
+                </div>
+
+                <div className="border-l-4 border-red-600 pl-4">
+                  <p className="text-white font-semibold mb-1">
+                    Includes
+                  </p>
+                  <p className="text-gray-300 text-sm">
+                    Accommodation, meals, and full program access
+                  </p>
+                </div>
+              </div>
+            </div>
+
             {/* Low Income Junior Card */}
             <div className="bg-black rounded-lg p-6 border-2 border-red-600">
               <div className="text-center mb-6">
@@ -213,7 +245,7 @@ const PricingSection = () => {
               <div className="space-y-4">
                 <div className="border-l-4 border-red-600 pl-4">
                   <p className="text-white font-semibold mb-1">
-                    Initial deposit
+                    Season Fee
                   </p>
                   <p className="text-gray-300 text-sm">
                     $1,500 for the season
@@ -240,6 +272,47 @@ const PricingSection = () => {
               </div>
             </div>
           </div>
+
+                  {/* Pre Junior Pricing Section (Grades 4-6) */}
+        <div className="bg-navy-900 rounded-lg p-10 mt-12">
+          <div className="text-center mb-8">
+            <h3 className="text-4xl md:text-5xl font-bold text-red-600 mb-4">
+              Price
+            </h3>
+            <p className="text-xl text-white font-semibold">
+              For Pre Juniors (Grades 4–6)
+            </p>
+          </div>
+
+          <div className="text-center">
+            <div className="inline-block border-l-4 border-red-600 pl-6 text-left">
+              <h4 className="text-2xl font-bold text-red-600 mb-2">
+                Pre Junior Program (Grades 4–6)
+              </h4>
+              <p className="text-lg text-gray-300 mb-4">
+                Local, Without Accommodation
+              </p>
+
+              <div className="space-y-3 mt-6">
+                <div className="flex justify-between items-center gap-8">
+                  <span className="text-white font-semibold">Total fee:</span>
+                  <span className="text-red-400 text-xl font-bold">$1,500</span>
+                </div>
+                <div className="flex justify-between items-center pt-3 border-t border-gray-700 gap-8">
+                  <span className="text-white font-bold">Net payable:</span>
+                  <span className="text-red-600 text-2xl font-bold">$1,500</span>
+                </div>
+              </div>
+
+              <ul className="mt-6 space-y-2">
+                <li className="text-gray-300 flex items-start">
+                  <span className="text-red-600 mr-2">•</span>
+                  Does not include travel/transportation
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
           {/* Contact Section Below */}
           <div className="mt-12">
@@ -303,6 +376,8 @@ const PricingSection = () => {
               </div>
             </div>
         </div>
+
+
 
         {/* Additional Info */}
         <div className="mt-12 text-center">
