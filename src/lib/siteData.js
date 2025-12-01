@@ -80,8 +80,8 @@ export const programs = [
   {
     id: "multiple-locations",
     title: "Multiple Locations",
-    subtitle: "Convenient options available - Quebec, Ontario and Alberta",
-    description: "Choose from convenient school locations: BCR School, Amiskwaciy Academy, and Great Lyn Academy across Quebec, Ontario and Alberta. Each location offers full academic and athletic programs with facilities.",
+    subtitle: "Convenient options available - Quebec, Ontario, Alberta and New Jersey",
+    description: "Choose from convenient school locations: BCR School, Amiskwaciy Academy, and Great Lyn Academy across Quebec, Ontario, Alberta and New Jersey. Each location offers full academic and athletic programs with facilities.",
     icon: "CommunityIcon",
     highlighted: false
   }
@@ -208,14 +208,14 @@ export const schools = [
     id: "bcr-school",
     name: "BCR School",
     address: "6227 119 Ave",
-    city: "Edmonton, AB",
+    city: "New Jersey, USA",
     programs: ["Grades 8-12", "Full Academic Program"]
   },
   {
     id: "amiskwaciy-academy",
-    name: "Amiskwaciy Academy", 
+    name: "Amiskwaciy Academy",
     address: "101 Airport Rd",
-    city: "Edmonton, AB",
+    city: "New Jersey, USA",
     programs: ["Grades 8-12", "Full Academic Program"]
   },
   {

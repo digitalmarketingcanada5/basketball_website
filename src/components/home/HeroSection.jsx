@@ -110,7 +110,7 @@ const HeroSection = () => {
             {heroSection.subtitle}
           </p>
           <p className="text-gray-200 text-xs md:text-sm mt-2 tracking-wider">
-            Quebec • Ontario • Alberta • Edmonton
+            Quebec • Ontario • Alberta • New Jersey
           </p>
         </div>
         
