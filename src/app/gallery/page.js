@@ -10,27 +10,38 @@ export default function Gallery() {
   const [selectedMedia, setSelectedMedia] = useState(null);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
+  // WhatsApp images folder path
+  const whatsappFolder = '/images/gallery/WhatsApp Unknown 2026-01-06 at 11.42.50 AM';
+
   // Gallery data with actual media files
   const mediaItems = [
-    // Images
+    // Original Images
     { id: 1, type: 'image', src: '/images/gallery/Training.jpeg', title: 'Training Session', category: 'training' },
     { id: 2, type: 'image', src: '/images/gallery/photo1.jpeg', title: 'Team Photo', category: 'events' },
     { id: 3, type: 'image', src: '/images/gallery/Events.png', title: 'Special Events', category: 'events' },
+
+    // WhatsApp Gallery Images
+    { id: 5, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.45 PM.jpeg`, title: 'Team Moment 1', category: 'training' },
+    { id: 6, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.46 PM.jpeg`, title: 'Team Moment 2', category: 'training' },
+    { id: 7, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.46 PM (1).jpeg`, title: 'Team Moment 3', category: 'training' },
+    { id: 8, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.46 PM (2).jpeg`, title: 'Team Moment 4', category: 'training' },
+    { id: 9, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.46 PM (3).jpeg`, title: 'Team Moment 5', category: 'training' },
+    { id: 10, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.47 PM.jpeg`, title: 'Team Moment 6', category: 'events' },
+    { id: 11, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.47 PM (1).jpeg`, title: 'Team Moment 7', category: 'events' },
+    { id: 12, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.47 PM (2).jpeg`, title: 'Team Moment 8', category: 'events' },
+    { id: 13, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.47 PM (3).jpeg`, title: 'Team Moment 9', category: 'events' },
+    { id: 14, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.48 PM.jpeg`, title: 'Team Moment 10', category: 'games' },
+    { id: 15, type: 'image', src: `${whatsappFolder}/WhatsApp Image 2026-01-05 at 5.34.48 PM (1).jpeg`, title: 'Team Moment 11', category: 'games' },
 
     // Video - local video file
     {
       id: 4,
       type: 'video',
       src: '/images/gallery/video1.mp4',
-      thumbnail: '/images/gallery/Training.jpeg', // Using Training.jpeg as thumbnail
+      thumbnail: '/images/gallery/Training.jpeg',
       title: 'Program Highlights',
       category: 'training'
     },
-
-    // You can add more items here as you get more content
-    // Example placeholders for future content:
-    // { id: 5, type: 'image', src: '/images/gallery/game1.jpg', title: 'Championship Game', category: 'games' },
-    // { id: 6, type: 'image', src: '/images/gallery/facility1.jpg', title: 'Training Facility', category: 'facilities' },
   ];
 
   // Filter media based on active tab
